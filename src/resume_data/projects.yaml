@@ -14,13 +14,6 @@
       linkrepo: "https://github.com/leungjch/cellular-automata-webapp"
       linkdemo: "https://justinleung.me/cellular-automata-webapp/"
 
-    - name: DIY VR Styrofoam Headset
-      description: 
-      keywords:
-      img: "images/projects/vr_front.jpg"
-      linkrepo: "https://github.com/leungjch/arduino-styrofoam-VR"
-      linkdemo: ""
-
     - name: Novel Molecule Generation with Variational Autoencoders 
       description:
       keywords:
@@ -54,6 +47,20 @@
       keywords:
       img: 
       linkrepo: "https://github.com/leungjch/snake_AI"
+      linkdemo: ""
+
+    - name: "Cookie or Donut? Doodle Neural Network"
+      description: 
+      keywords:
+      img: 
+      linkrepo: "https://github.com/leungjch/donut_or_cookie_neuralnet"
+      linkdemo: ""
+
+    - name: DIY VR Styrofoam Headset
+      description: 
+      keywords:
+      img: "images/projects/vr_front.jpg"
+      linkrepo: "https://github.com/leungjch/arduino-styrofoam-VR"
       linkdemo: ""
 
     - name: "Arduino Pen Plotter"

@@ -25,7 +25,7 @@ export default function Home({ data }) {
         <h1> Work </h1>
         <ul>
           {work.map((data, index) => {
-            return <li key={`work_${index}`}>
+            return <li key={`work_${index}`} style={{listStyleType:"none"}}>
               <h2>{data.place}</h2>
               <p>{data.duration}</p>
               <p>{data.position}</p>
@@ -39,7 +39,7 @@ export default function Home({ data }) {
         <p> I enjoy working on a variety of projects in my spare time. </p>
         <ul>
           {projects.map((data, index) => {
-            return <li key={`projects_${index}`}>
+            return <li key={`projects_${index}`} style={{listStyleType:"none"}}>
               <h2>{data.name}</h2>
               <Image filename={data.img} maxHeight={"30vh"} imgStyle={{ objectFit: 'contain' }}/>
               <p>{data.description}</p>
