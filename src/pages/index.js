@@ -13,8 +13,9 @@ export default function Home({ data }) {
 
   const basicInfo = data.basicInfoYaml.basic_info;
   const work = data.workYaml.work;
+  const projects = data.projectsYaml.projects;
 
-  console.log(basicInfo, work)
+  console.log(basicInfo, work, projects)
   return (
     <Layout>
       <div>
@@ -26,6 +27,7 @@ export default function Home({ data }) {
             return <li key={`work_${index}`}>
               <h2>{data.place}</h2>
               <p>{data.duration}</p>
+              <p>{data.position}</p>
               <p>{data.summary}</p>
             </li>
           })}
@@ -33,12 +35,14 @@ export default function Home({ data }) {
         
 
         <h1>Projects</h1> 
+        <p> I enjoy working on a variety of projects in my spare time. </p>
         <ul>
-          {work.map((data, index) => {
-            return <li key={`work_${index}`}>
-              <h2>{data.place}</h2>
-              <p>{data.duration}</p>
-              <p>{data.summary}</p>
+          {projects.map((data, index) => {
+            return <li key={`projects_${index}`}>
+              <h2>{data.name}</h2>
+              <img src={data.img} alt=''></img>
+              <p>{data.description}</p>
+              <p>Keywords: {data.keywords}</p>
             </li>
           })}
         </ul>
@@ -107,6 +111,19 @@ export const query = graphql`
         place
         duration
         summary
+        position
+      }
+    }
+
+    projectsYaml {
+      projects {
+        name
+        keywords
+        description
+        img
+        linkrepo
+        linkdemo
+
       }
     }
 }

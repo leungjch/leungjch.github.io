@@ -1,9 +1,12 @@
 ---
 - work:
-    - place: Software Analysis and Intelligence Lab, Queen's University
-      duration: Summer 2020
+    - place: Software Analysis and Intelligence Lab (Queen's University)
+      duration: Jul. — Oct. 2019
+      position: Research Intern
       summary: "Led project on Medium mining"
 
-    - place: Software Analysis and Intelligence Lab, Queen's University
-      duration: Summer 2019
+    - place: Software Analysis and Intelligence Lab (Queen's University)
+      duration: Apr. — Sept. 2020
+      position: Research Intern
+
       summary: "Modelled and preprocessed dataset of 19.3M messages to study the Stack Overflow chat platform"

@@ -4,17 +4,23 @@
     program: Computer Science, Honours Co-op
     duration: 2020-2025
     location: Waterloo, ON
+    summary: ""
     awards-scholarships:
       - item: President's Scholarship of Distinction
         details: Awarded for entrance admission grade of 98%.
 
     involvement:
 
+  - institution: HarvardX
+    program: "CS50x Introduction to Computer Science"
+    duration: "May-June 2020"
+    summary: "Used C to build image and edge detection filters, file recovery programs. Web development track with Flask, MySQL. Scored perfect on output and code style tests in all 8 problem sets."
 
   - institution: Kingston Collegiate and Vocational Institute
     program: IB Diploma Program
     duration: 2016-2020
     location: Kingston, ON
+    summary: ""
     awards:
       - item: IB Diploma Award
         details: Awarded for the highest IB diploma score

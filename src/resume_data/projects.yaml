@@ -1,6 +1,6 @@
 ---
 - projects:
-    - name: Emoji ninja -- A peer-to-peer fitness game
+    - name: "Emoji ninja - p2p fitness webgame"
       description: 
       keywords: PoseNet, Node.js, React, Express, p5.js, simple-peer, WebRTC
       img: ""
@@ -20,10 +20,10 @@
       img: 
       link:
 
-    - name: Novel Molecule Generation using Variational Autoencoder 
+    - name: Novel Molecule Generation with Variational Autoencoders 
       description:
       keywords:
-      img: 
+      img: "/src/images/projects/drug_vae.png"
       linkrepo: "https://github.com/leungjch/drug_VAE"
       linkdemo: ""
 
