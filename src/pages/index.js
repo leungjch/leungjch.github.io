@@ -10,19 +10,44 @@ import SEO from "../components/seo"
 import Header from "../components/header"
 
 export default function Home({ data }) {
-  console.log(data)
+
+  const basicInfo = data.basicInfoYaml.basic_info;
+  const work = data.workYaml.work;
+
+  console.log(basicInfo, work)
   return (
     <Layout>
       <div>
-        <h1
-          css={css`
-            display: inline-block;
-            border-bottom: 1px solid;
-          `}
-        >
+        <p> {basicInfo.summary} </p>
+
+        <h1> Work </h1>
+        <ul>
+          {work.map((data, index) => {
+            return <li key={`work_${index}`}>
+              <h2>{data.place}</h2>
+              <p>{data.duration}</p>
+              <p>{data.summary}</p>
+            </li>
+          })}
+        </ul>
+        
+
+        <h1>Projects</h1> 
+        <ul>
+          {work.map((data, index) => {
+            return <li key={`work_${index}`}>
+              <h2>{data.place}</h2>
+              <p>{data.duration}</p>
+              <p>{data.summary}</p>
+            </li>
+          })}
+        </ul>
+
+
+        <h1 css={css`display: inline-block;border-bottom: 1px solid;`}>
         Blog
         </h1>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+        {/* <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
@@ -49,29 +74,59 @@ export default function Home({ data }) {
             <p>{node.excerpt}</p>
             </Link>
           </div>
-        ))}
+        ))} */}
       </div>
     </Layout>
   )
 }
 
+
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            date(formatString: "DD MMMM, YYYY")
-          }
-          fields {
-            slug
-          }
-          excerpt
+    basicInfoYaml {
+      basic_info {
+        name
+        image
+        email
+        phone
+        url
+        summary
+        location {
+          city
+          countryCode
+          region
+        }
+        social {
+          github
         }
       }
     }
-  }
+
+    workYaml {
+      work {
+        place
+        duration
+        summary
+      }
+    }
+}
 `
+  
+//     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+//       totalCount
+//       edges {
+//         node {
+//           id
+//           frontmatter {
+//             title
+//             date(formatString: "DD MMMM, YYYY")
+//           }
+//           fields {
+//             slug
+//           }
+//           excerpt
+//         }
+//       }
+//     }
+//   }
+// `

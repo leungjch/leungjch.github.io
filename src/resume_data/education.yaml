@@ -1,0 +1,40 @@
+---
+- education:
+  - institution: University of Waterloo
+    program: Computer Science, Honours Co-op
+    duration: 2020-2025
+    location: Waterloo, ON
+    awards-scholarships:
+      - item: President's Scholarship of Distinction
+        details: Awarded for entrance admission grade of 98%.
+
+    involvement:
+
+
+  - institution: Kingston Collegiate and Vocational Institute
+    program: IB Diploma Program
+    duration: 2016-2020
+    location: Kingston, ON
+    awards:
+      - item: IB Diploma Award
+        details: Awarded for the highest IB diploma score
+
+      - item: DECA International Finalist 2018
+        details: 
+
+      - item: DECA Provincial Champion 2017, 2018, 2019
+        details: 
+
+    involvement:
+      - activity: Programming Club
+        title: Founder
+        description: Taught the basics of Python to students, prepared a digital guide complete with exercises. Organized opportunities for members to participate in programming competitions.
+              
+      - activity: Common Cents Financial Literacy
+        title: Co-founder
+        description: Managed a community campaign over two years, taught financial literacy to students from grades 4-12. Collaborated with professionals and members of organizations including RBC, CIBC, Enactus, Kingston Community Credit Union, and the MPP of Kingston and the Islands.
+
+      - activity: Ping Pong Club
+        title: Co-founder
+        description: Promoted the club as a casual active outlet for students
+      

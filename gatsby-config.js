@@ -12,6 +12,14 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/resume_data/`,
+      },
+    },
+
     `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
     {

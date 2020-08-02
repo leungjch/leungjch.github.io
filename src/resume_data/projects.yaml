@@ -1,0 +1,65 @@
+---
+- projects:
+    - name: Emoji ninja -- A peer-to-peer fitness game
+      description: 
+      keywords: PoseNet, Node.js, React, Express, p5.js, simple-peer, WebRTC
+      img: ""
+      linkrepo: "https://github.com/leungjch/posenet-game-peer2peer"
+      linkdemo: "https://posenet-game-p2p-react.herokuapp.com/"
+
+    - name: Cellular Automata Explorer
+      description: Completed as part of the Harvard CS50X final project.
+      keywords: React, three.js, d3.js, webapp, p5.js, 
+      img: 
+      linkrepo: "https://github.com/leungjch/cellular-automata-webapp"
+      linkdemo: "https://justinleung.me/cellular-automata-webapp/"
+
+    - name: DIY VR Styrofoam Headset
+      description: 
+      keywords:
+      img: 
+      link:
+
+    - name: Novel Molecule Generation using Variational Autoencoder 
+      description:
+      keywords:
+      img: 
+      linkrepo: "https://github.com/leungjch/drug_VAE"
+      linkdemo: ""
+
+    - name: Epicycles
+      description: 
+      keywords:
+      img: 
+      linkrepo: "https://github.com/leungjch/epicycles.js"
+      linkdemo: "https://justinleung.me/epicycles.js/"
+
+    - name: "PixelPaper: A wallpaper generating app"
+      description: 
+      keywords:
+      img: 
+      linkrepo: "https://github.com/leungjch/epicycles.js"
+      linkdemo: "https://justinleung.me/epicycles.js/"
+
+
+    - name: Magnetic Pendulum
+      description: 
+      keywords:
+      img: 
+      linkrepo: "https://github.com/leungjch/Magnetic-Pendulum"
+      linkdemo: ""
+
+    - name: "Mulander: A Lunar Lander Clone"
+      description: 
+      keywords:
+      img: 
+      linkrepo: "https://github.com/leungjch/Magnetic-Pendulum"
+      linkdemo: ""
+
+    - name: "Snake Neural Network with Genetic Algorithms"
+      description: 
+      keywords:
+      img: 
+      linkrepo: "https://github.com/leungjch/snake_AI"
+      linkdemo: ""
+
