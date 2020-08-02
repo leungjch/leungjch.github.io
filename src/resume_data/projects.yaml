@@ -3,7 +3,7 @@
     - name: "Emoji ninja - p2p fitness webgame"
       description: 
       keywords: PoseNet, Node.js, React, Express, p5.js, simple-peer, WebRTC
-      img: ""
+      img: 
       linkrepo: "https://github.com/leungjch/posenet-game-peer2peer"
       linkdemo: "https://posenet-game-p2p-react.herokuapp.com/"
 
@@ -17,20 +17,21 @@
     - name: DIY VR Styrofoam Headset
       description: 
       keywords:
-      img: 
-      link:
+      img: "images/projects/vr_front.jpg"
+      linkrepo: "https://github.com/leungjch/arduino-styrofoam-VR"
+      linkdemo: ""
 
     - name: Novel Molecule Generation with Variational Autoencoders 
       description:
       keywords:
-      img: "/src/images/projects/drug_vae.png"
+      img: "images/projects/drug_vae.png"
       linkrepo: "https://github.com/leungjch/drug_VAE"
       linkdemo: ""
 
     - name: Epicycles
       description: 
       keywords:
-      img: 
+      img: "images/projects/epicycle.png"
       linkrepo: "https://github.com/leungjch/epicycles.js"
       linkdemo: "https://justinleung.me/epicycles.js/"
 
@@ -41,18 +42,10 @@
       linkrepo: "https://github.com/leungjch/epicycles.js"
       linkdemo: "https://justinleung.me/epicycles.js/"
 
-
     - name: Magnetic Pendulum
       description: 
       keywords:
-      img: 
-      linkrepo: "https://github.com/leungjch/Magnetic-Pendulum"
-      linkdemo: ""
-
-    - name: "Mulander: A Lunar Lander Clone"
-      description: 
-      keywords:
-      img: 
+      img: "images/projects/magnetic_pendulum.png"
       linkrepo: "https://github.com/leungjch/Magnetic-Pendulum"
       linkdemo: ""
 
@@ -62,4 +55,27 @@
       img: 
       linkrepo: "https://github.com/leungjch/snake_AI"
       linkdemo: ""
+
+    - name: "Arduino Pen Plotter"
+      description: 
+      keywords:
+      img: 
+      linkrepo: "https://github.com/leungjch/arduino_plotter"
+      linkdemo: ""
+
+    - name: "Mulander: A Lunar Lander Clone"
+      description: 
+      keywords:
+      img: "images/projects/mulander_crop.png"
+      linkrepo: "https://github.com/leungjch/Magnetic-Pendulum"
+      linkdemo: ""
+
+
+    - name: "Procedural Landscapes"
+      description: 
+      keywords:
+      img: "images/projects/procedural_landscapes.png"
+      linkrepo: "https://github.com/leungjch/arduino_plotter"
+      linkdemo: ""
+
 

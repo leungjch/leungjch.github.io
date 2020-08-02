@@ -19,6 +19,7 @@ export default function Home({ data }) {
   return (
     <Layout>
       <div>
+
         <p> {basicInfo.summary} </p>
 
         <h1> Work </h1>
@@ -40,18 +41,18 @@ export default function Home({ data }) {
           {projects.map((data, index) => {
             return <li key={`projects_${index}`}>
               <h2>{data.name}</h2>
-              <img src={data.img} alt=''></img>
+              <Image filename={data.img} maxHeight={"30vh"} imgStyle={{ objectFit: 'contain' }}/>
               <p>{data.description}</p>
-              <p>Keywords: {data.keywords}</p>
+              <p>Keywords: <strong>{data.keywords}</strong></p>
             </li>
           })}
         </ul>
 
 
-        <h1 css={css`display: inline-block;border-bottom: 1px solid;`}>
+        {/* <h1 css={css`display: inline-block;border-bottom: 1px solid;`}>
         Blog
         </h1>
-        {/* <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
