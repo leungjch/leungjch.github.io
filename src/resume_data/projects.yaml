@@ -14,30 +14,30 @@
       linkrepo: "https://github.com/leungjch/cellular-automata-webapp"
       linkdemo: "https://justinleung.me/cellular-automata-webapp/"
 
-    - name: Novel Molecule Generation with Variational Autoencoders 
+    - name: Druglike Molecule Generation with Variational Autoencoders 
       description:
-      keywords: "python, tensorflow, keras, deep-learning"
+      keywords: python, tensorflow, keras, deep-learning, chemistry
       img: "images/projects/drug_vae.png"
       linkrepo: "https://github.com/leungjch/drug_VAE"
       linkdemo: ""
 
-    - name: "PixelPaper: Infinite Phone Wallpaper Generator"
+    - name: "PixelPaper: Infinite Wallpaper Generator App"
       description: 
-      keywords: "java, android, procedural-generation, personalization"
+      keywords: java, android, procedural-generation, personalization
       img: "images/projects/pixelpaper.png"
       linkrepo: "https://github.com/leungjch/WallpaperGenerator_App"
       linkdemo: "https://play.google.com/store/apps/details?id=com.pixelpaper.pixelpaper.wallpapergenerator"
 
     - name: Magnetic Pendulum
       description: 
-      keywords:
-      img: "images/projects/magnetic_pendulum.png"
+      keywords: python, numerical-integration, chaos-theory
+      img: "images/projects/magnetic_pendulum_collage.png"
       linkrepo: "https://github.com/leungjch/Magnetic-Pendulum"
       linkdemo: ""
 
     - name: Epicycles Simulator
       description: 
-      keywords: "javascript, p5.js, math"
+      keywords: javascript, p5.js, math
       img: "gifs/squarewave.gif"
       linkrepo: "https://github.com/leungjch/epicycles.js"
       linkdemo: "https://justinleung.me/epicycles.js/"
@@ -51,35 +51,34 @@
 
     - name: "Cookie or Donut Neural Network"
       description: "A vanilla neural network that classifies a doodle (a 256x256 grayscale bitmap) as a cookie, a donut, or neither. Trained using backpropagation algorithm on doodles from Google Quick, Draw! dataset (~1M images). Runs on Android. Neural network implemented from scratch using Numpy linear algebra module, weights transferred to a Java implementation of a prediction-only neural network I made using the ojAlgo library."
-      keywords:
+      keywords: python, java, neural-network, multiclass-classification
       img: "images/projects/donut_cookie.png"
       linkrepo: "https://github.com/leungjch/donut_or_cookie_neuralnet"
       linkdemo: ""
 
     - name: DIY VR Styrofoam Headset
-      description: 
-      keywords:
+      description: "A VR headset built from scratch. Head tracking was done using the MPU-6050 gyroscope and accelerometer sensor (~$30), which is sent to the Arduino Micro and converted into mouse input. Fully compatible with all SteamVR games. The headset display is my phone, which streams video my desktop."
+      keywords: vr, arduino, c++, hardware, openvr, steamvr
       img: "gifs/vr_gif.gif"
       linkrepo: "https://github.com/leungjch/arduino-styrofoam-VR"
       linkdemo: ""
 
     - name: "Arduino Pen Plotter"
       description: 
-      keywords:
+      keywords: "arduino, hardware, "
       img: 
       linkrepo: "https://github.com/leungjch/arduino_plotter"
       linkdemo: ""
 
     - name: Chemical Equilibrium Simulation
       description: 
-      keywords:
+      keywords: "python, pygame, simulation, chemistry, le-chateliers-principle"
       img: "images/projects/magnetic_pendulum.png"
       linkrepo: "https://github.com/leungjch/chem_equilibrium_simulation"
       linkdemo: ""
 
-
     - name: "Mulander: A Lunar Lander Clone"
-      description: 
+      description: "A clone of the classic lunar lander game, where the objective is to safely land on landing zones while being mindful of speed, alignment, and fuel (it's harder than it looks!). Features an infinite landscape using the midpoint displacement algorithm. Made for my Grade 11 Computer Science final project, which I took in Grade 10."
       keywords: "actionscript, gamedev, lunar-lander"
       img: "images/projects/mulander_crop.png"
       linkrepo: "https://github.com/leungjch/Magnetic-Pendulum"
@@ -87,14 +86,14 @@
 
     - name: "Procedural Landscapes"
       description: "An implementation of the midpoint displacement algorithm, used to create random landscapes. Features vivid, randomized colours and starry skies to simulate the aesthetic of sci-fi planetscapes."
-      keywords: "c++, sfml, midpoint-displacement"
+      keywords: c++, sfml, midpoint-displacement
       img: "images/projects/procedural_landscapes.png"
       linkrepo: "https://github.com/leungjch/procedural-landscapes"
       linkdemo: ""
 
     - name: "Pong Clone in C++"
       description: "My first project: a Pong clone implemented in C++ using the SFML graphics library."
-      keywords: "c++, gamedev, sfml"
+      keywords: c++, gamedev, sfml
       img: 
       linkrepo: "https://github.com/leungjch/SFMLPong"
       linkdemo: ""
