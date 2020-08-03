@@ -19,52 +19,54 @@ export default function Home({ data }) {
   return (
     <Layout>
       <div>
+      <h2> {basicInfo.email} </h2>
 
-        <p> {basicInfo.summary} </p>
+      <div dangerouslySetInnerHTML={{ __html:basicInfo.summary}} />
+        <div id="work">
+          <h1> Work </h1>
+          <ul>
+            {work.map((data, index) => {
+              return <li key={`work_${index}`} style={{listStyleType:"none"}}>
+                <h2>{data.place}</h2>
+                <div class="container" style={{flexDirection:"column", justifyContent:"space-between"}}>
+                  <div class="item">{data.duration}</div>
+                  <div class="item">{data.position}</div>
+                </div>
+                <p>{data.summary}</p>
+              </li>
+            })}
+          </ul>
+        </div>
 
-        <h1> Work </h1>
-        <ul>
-          {work.map((data, index) => {
-            return <li key={`work_${index}`} style={{listStyleType:"none"}}>
-              <h2>{data.place}</h2>
-              <div class="container" style={{flexDirection:"column", justifyContent:"space-between"}}>
-                <div class="item">{data.duration}</div>
-                <div class="item">{data.position}</div>
-              </div>
-              <p>{data.summary}</p>
-            </li>
-          })}
-        </ul>
-        
-
-        <h1>Projects</h1> 
-        <p> I enjoy working on a variety of projects in my spare time. </p>
-        <ul>
-          {projects.map((data, index) => {
-            var image;
-            var demo;
-            if (/[\/.](gif)$/i.test(data.img)) // if img is gif, use <img> tag, else use Gatsby Image tag
-            {
-              console.log("helol")
-              image = <img src={data.img} alt={""}></img>
-            }
-            else
-            {
-              image = <Image filename={data.img} maxHeight={"30vh"} imgStyle={{ objectFit: 'contain' }}/>
-            }
-            if (data.linkdemo.length > 0)
-            {
-              demo = <a href={data.linkdemo}>[demo]</a>
-            }
-            var repo = <a href={data.linkrepo}>[code]</a>
-            return <li key={`projects_${index}`} style={{listStyleType:"none"}}>
-              <h2>{data.name} {demo} {repo}</h2>
-              {image}
-              <p>{data.description}</p>
-              <p>Keywords: <strong>{data.keywords}</strong></p>
-            </li>
-          })}
-        </ul>
+        <div id="projects">
+          <h1>Projects</h1> 
+          <p> I enjoy working on a variety of projects in my spare time. </p>
+          <ul>
+            {projects.map((data, index) => {
+              var image;
+              var demo;
+              if (/[\/.](gif)$/i.test(data.img)) // if img is gif, use <img> tag, else use Gatsby Image tag
+              {
+                image = <img src={data.img} alt={""}></img>
+              }
+              else
+              {
+                image = <Image filename={data.img} maxHeight={"30vh"} imgStyle={{ objectFit: 'contain' }}/>
+              }
+              if (data.linkdemo.length > 0)
+              {
+                demo = <a href={data.linkdemo}>[demo]</a>
+              }
+              var repo = <a href={data.linkrepo}>[code]</a>
+              return <li key={`projects_${index}`} style={{listStyleType:"none"}}>
+                <h2>{data.name} {demo} {repo}</h2>
+                {image}
+                <p>{data.description}</p>
+                <p>Keywords: <strong>{data.keywords}</strong></p>
+              </li>
+            })}
+          </ul>
+        </div>
 
 
         {/* <h1 css={css`display: inline-block;border-bottom: 1px solid;`}>
