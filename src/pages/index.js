@@ -27,8 +27,10 @@ export default function Home({ data }) {
           {work.map((data, index) => {
             return <li key={`work_${index}`} style={{listStyleType:"none"}}>
               <h2>{data.place}</h2>
-              <p>{data.duration}</p>
-              <p>{data.position}</p>
+              <div class="container" style={{flexDirection:"column", justifyContent:"space-between"}}>
+                <div class="item">{data.duration}</div>
+                <div class="item">{data.position}</div>
+              </div>
               <p>{data.summary}</p>
             </li>
           })}

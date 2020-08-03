@@ -1,8 +1,8 @@
 ---
 - projects:
-    - name: "Emoji ninja - p2p fitness webgame"
+    - name: "Emoji ninja: P2P AI-Powered Fitness Webgame"
       description: 
-      keywords: PoseNet, Node.js, React, Express, p5.js, simple-peer, WebRTC
+      keywords: javascript, node.js, react, express, p5.js, simple-peer, posenet
       img: 
       linkrepo: "https://github.com/leungjch/posenet-game-peer2peer"
       linkdemo: "https://posenet-game-p2p-react.herokuapp.com/"
@@ -30,7 +30,7 @@
 
     - name: "PixelPaper: A wallpaper generating app"
       description: 
-      keywords:
+      keywords: "java, android, procedural-generation, personalization"
       img: 
       linkrepo: "https://github.com/leungjch/epicycles.js"
       linkdemo: "https://justinleung.me/epicycles.js/"
@@ -43,16 +43,16 @@
       linkdemo: ""
 
     - name: "Snake Neural Network with Genetic Algorithms"
-      description: 
-      keywords:
-      img: "gifs/snake.gif"
+      description: "A neural network (built from scratch using Numpy matrices) trained to play Snake, generalizable to any game tile size. The neural network is trained using genetic algorithm concepts and techniques (tournament selection, random mutation, and fitness)"
+      keywords: "python, numpy, neural-network, genetic-algorithm"
+      img: "gifs/snake_gif.gif"
       linkrepo: "https://github.com/leungjch/snake_AI"
       linkdemo: ""
 
-    - name: "Cookie or Donut? Doodle Neural Network"
-      description: 
+    - name: "Cookie or Donut Neural Network"
+      description: "A vanilla neural network that classifies a doodle (a 256x256 grayscale bitmap) as a cookie, a donut, or neither. Trained using backpropagation algorithm on doodles from Google Quick, Draw! dataset (~1M images). Runs on Android. Neural network implemented from scratch using Numpy linear algebra module, weights transferred to a Java implementation of a prediction-only neural network I made using the ojAlgo library."
       keywords:
-      img: 
+      img: "images/projects/donut_cookie.png"
       linkrepo: "https://github.com/leungjch/donut_or_cookie_neuralnet"
       linkdemo: ""
 
@@ -86,15 +86,15 @@
       linkdemo: ""
 
     - name: "Procedural Landscapes"
-      description: 
-      keywords:
+      description: "An implementation of the midpoint displacement algorithm, used to create random landscapes. Features vivid, randomized colours and starry skies to simulate the aesthetic of sci-fi planetscapes."
+      keywords: "c++, sfml, midpoint-displacement"
       img: "images/projects/procedural_landscapes.png"
-      linkrepo: "https://github.com/leungjch/arduino_plotter"
+      linkrepo: "https://github.com/leungjch/procedural-landscapes"
       linkdemo: ""
 
     - name: "Pong Clone in C++"
       description: "My first project: a Pong clone implemented in C++ using the SFML graphics library."
-      keywords: "C++, game, SFML"
+      keywords: "c++, game, sfml"
       img: 
       linkrepo: "https://github.com/leungjch/SFMLPong"
       linkdemo: ""
