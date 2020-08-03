@@ -39,9 +39,19 @@ export default function Home({ data }) {
         <p> I enjoy working on a variety of projects in my spare time. </p>
         <ul>
           {projects.map((data, index) => {
+            var image;
+            if (/[\/.](gif)$/i.test(data.img)) // if img is gif, use <img> tag, else use Gatsby Image tag
+            {
+              console.log("helol")
+              image = <img src={data.img} alt={""}></img>
+            }
+            else
+            {
+              image = <Image filename={data.img} maxHeight={"30vh"} imgStyle={{ objectFit: 'contain' }}/>
+            }
             return <li key={`projects_${index}`} style={{listStyleType:"none"}}>
               <h2>{data.name}</h2>
-              <Image filename={data.img} maxHeight={"30vh"} imgStyle={{ objectFit: 'contain' }}/>
+              {image}
               <p>{data.description}</p>
               <p>Keywords: <strong>{data.keywords}</strong></p>
             </li>
@@ -84,7 +94,6 @@ export default function Home({ data }) {
     </Layout>
   )
 }
-
 
 export const query = graphql`
   query {

@@ -9,14 +9,14 @@
 
     - name: Cellular Automata Explorer
       description: Completed as part of the Harvard CS50X final project.
-      keywords: React, three.js, d3.js, webapp, p5.js, 
+      keywords: react, three.js, d3.js, webapp, p5.js, 
       img: 
       linkrepo: "https://github.com/leungjch/cellular-automata-webapp"
       linkdemo: "https://justinleung.me/cellular-automata-webapp/"
 
     - name: Novel Molecule Generation with Variational Autoencoders 
       description:
-      keywords:
+      keywords: "python, tensorflow, keras, deep-learning"
       img: "images/projects/drug_vae.png"
       linkrepo: "https://github.com/leungjch/drug_VAE"
       linkdemo: ""
@@ -24,7 +24,7 @@
     - name: Epicycles
       description: 
       keywords:
-      img: "images/projects/epicycle.png"
+      img: "gifs/squarewave.gif"
       linkrepo: "https://github.com/leungjch/epicycles.js"
       linkdemo: "https://justinleung.me/epicycles.js/"
 
@@ -45,7 +45,7 @@
     - name: "Snake Neural Network with Genetic Algorithms"
       description: 
       keywords:
-      img: 
+      img: "gifs/snake.gif"
       linkrepo: "https://github.com/leungjch/snake_AI"
       linkdemo: ""
 
@@ -59,7 +59,7 @@
     - name: DIY VR Styrofoam Headset
       description: 
       keywords:
-      img: "images/projects/vr_front.jpg"
+      img: "gifs/vr_gif.gif"
       linkrepo: "https://github.com/leungjch/arduino-styrofoam-VR"
       linkdemo: ""
 
@@ -70,13 +70,20 @@
       linkrepo: "https://github.com/leungjch/arduino_plotter"
       linkdemo: ""
 
+    - name: Chemical Equilibrium Simulation
+      description: 
+      keywords:
+      img: "images/projects/magnetic_pendulum.png"
+      linkrepo: "https://github.com/leungjch/chem_equilibrium_simulation"
+      linkdemo: ""
+
+
     - name: "Mulander: A Lunar Lander Clone"
       description: 
       keywords:
       img: "images/projects/mulander_crop.png"
       linkrepo: "https://github.com/leungjch/Magnetic-Pendulum"
       linkdemo: ""
-
 
     - name: "Procedural Landscapes"
       description: 
@@ -85,4 +92,9 @@
       linkrepo: "https://github.com/leungjch/arduino_plotter"
       linkdemo: ""
 
-
+    - name: "Pong Clone in C++"
+      description: "My first project: a Pong clone implemented in C++ using the SFML graphics library."
+      keywords: "C++, game, SFML"
+      img: 
+      linkrepo: "https://github.com/leungjch/SFMLPong"
+      linkdemo: ""
