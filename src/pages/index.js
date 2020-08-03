@@ -42,6 +42,7 @@ export default function Home({ data }) {
         <ul>
           {projects.map((data, index) => {
             var image;
+            var demo;
             if (/[\/.](gif)$/i.test(data.img)) // if img is gif, use <img> tag, else use Gatsby Image tag
             {
               console.log("helol")
@@ -51,8 +52,13 @@ export default function Home({ data }) {
             {
               image = <Image filename={data.img} maxHeight={"30vh"} imgStyle={{ objectFit: 'contain' }}/>
             }
+            if (data.linkdemo.length > 0)
+            {
+              demo = <a href={data.linkdemo}>[demo]</a>
+            }
+            var repo = <a href={data.linkrepo}>[code]</a>
             return <li key={`projects_${index}`} style={{listStyleType:"none"}}>
-              <h2>{data.name}</h2>
+              <h2>{data.name} {demo} {repo}</h2>
               {image}
               <p>{data.description}</p>
               <p>Keywords: <strong>{data.keywords}</strong></p>
