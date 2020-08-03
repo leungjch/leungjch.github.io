@@ -65,7 +65,7 @@
 
     - name: "Arduino Pen Plotter"
       description: 
-      keywords: "arduino, hardware, "
+      keywords: arduino, hardware, gcode 
       img: 
       linkrepo: "https://github.com/leungjch/arduino_plotter"
       linkdemo: ""
