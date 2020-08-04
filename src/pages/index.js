@@ -45,9 +45,9 @@ export default function Home({ data }) {
             {projects.map((data, index) => {
               var image;
               var demo;
-              if (/[\/.](gif)$/i.test(data.img)) // if img is gif, use <img> tag, else use Gatsby Image tag
+              if (/[\/.](webm)$/i.test(data.img)) // if img is gif, use <img> tag, else use Gatsby Image tag
               {
-                image = <img src={data.img} alt={""}></img>
+                image = <video autoplay = "true" loop="true" muted = "true" style={{width:"20%", height:'auto', backgroundColor:"white"}}> <source src={data.img} type = "video/webm" /> </video>
               }
               else
               {

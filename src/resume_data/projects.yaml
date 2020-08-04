@@ -8,9 +8,9 @@
       linkdemo: "https://posenet-game-p2p-react.herokuapp.com/"
 
     - name: Cellular Automata Explorer
-      description: Completed as part of the Harvard CS50X final project.
-      keywords: react, three.js, d3.js, webapp, p5.js, 
-      img: 
+      description: A full-fledged cellular automata simulation built with React and styled with Bootstrap, complete with 28 rule variants, various customizable parameters, a time machine, 3D rendering using three.js with option to download model as .obj, and live graphing of cell population with d3.js. Completed as part of the Harvard CS50X final project.
+      keywords: react, bootstrap, three.js, d3.js, webapp, p5.js, 
+      img: "webm/cellular.webm"
       linkrepo: "https://github.com/leungjch/cellular-automata-webapp"
       linkdemo: "https://justinleung.me/cellular-automata-webapp/"
 
@@ -43,9 +43,9 @@
       linkdemo: "https://justinleung.me/epicycles.js/"
 
     - name: "Snake Neural Network with Genetic Algorithms"
-      description: "A neural network (built from scratch using Numpy matrices) trained to play Snake, generalizable to any game tile size. The neural network is trained using genetic algorithm concepts and techniques (tournament selection, random mutation, and fitness)"
+      description: "A neural network built from scratch using Numpy matrices and trained to play Snake, generalizable to any game tile size. The neural network is trained using genetic algorithm concepts and techniques (tournament selection, random mutation, and fitness)"
       keywords: "python, numpy, neural-network, genetic-algorithm"
-      img: "gifs/snake.gif"
+      img: "webm/snake.webm"
       linkrepo: "https://github.com/leungjch/snake_AI"
       linkdemo: ""
 
@@ -59,7 +59,7 @@
     - name: DIY VR Styrofoam Headset
       description: "A VR headset built from scratch. Head tracking was done using the MPU-6050 gyroscope and accelerometer sensor (~$30), which is sent to the Arduino Micro and converted into mouse input. Fully compatible with all SteamVR games. The headset display is my phone, which streams video my desktop."
       keywords: vr, arduino, c++, hardware, openvr, steamvr
-      img: "gifs/vr_gif.gif"
+      img: "webm/vr_mute.webm"
       linkrepo: "https://github.com/leungjch/arduino-styrofoam-VR"
       linkdemo: ""
 
