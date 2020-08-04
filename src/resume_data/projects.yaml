@@ -38,7 +38,7 @@
     - name: Epicycles Simulator
       description: 
       keywords: javascript, p5.js, math
-      img: "gifs/squarewave.gif"
+      img: "webm/epicycle.webm"
       linkrepo: "https://github.com/leungjch/epicycles.js"
       linkdemo: "https://justinleung.me/epicycles.js/"
 
@@ -66,7 +66,7 @@
     - name: "Arduino Pen Plotter"
       description: 
       keywords: arduino, hardware, gcode 
-      img: 
+      img: "webm/plotter.webm"
       linkrepo: "https://github.com/leungjch/arduino_plotter"
       linkdemo: ""
 

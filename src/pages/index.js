@@ -47,7 +47,7 @@ export default function Home({ data }) {
               var demo;
               if (/[\/.](webm)$/i.test(data.img)) // if img is gif, use <img> tag, else use Gatsby Image tag
               {
-                image = <video autoplay = "true" loop="true" muted = "true" style={{width:"20%", height:'auto', backgroundColor:"white"}}> <source src={data.img} type = "video/webm" /> </video>
+                image = <video autoplay = "true" loop="true" muted = "true" style={{width:"30%", height:'auto', backgroundColor:"white"}}> <source src={data.img} type = "video/webm" /> </video>
               }
               else
               {
