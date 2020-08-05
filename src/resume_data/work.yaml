@@ -3,10 +3,10 @@
     - place: Software Analysis and Intelligence Lab, Queen's University
       duration: Apr. — Sept. 2020
       position: Research Intern
-      summary: "Led project on Medium mining"
+      summary: "Led project on Medium mining. Applied machine learning models (logistic regression, support vector machines) to study 6 million Software Engineering related articles. Built a robust web crawler to mine the Medium article network. Implemented multiprocessing techniques to increase feature extraction performance by 8-fold."
 
     - place: Software Analysis and Intelligence Lab, Queen's University
       duration: Jul. — Oct. 2019
       position: Research Intern
 
-      summary: "Used R and Python to preprocess and model 19.3M messages to study the Stack Overflow chat platform."
+      summary: "Used R and Python to preprocess and extract 100+ features from 19.3 million messages to study the Stack Overflow chat platform. Trained logistic regression models on 86K chat rooms, evaluated with established evaluation metrics such as AUC/ROC, AIC, Wald statistics. Paper under internal review."

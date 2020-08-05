@@ -8,7 +8,7 @@
       linkdemo: "https://posenet-game-p2p-react.herokuapp.com/"
 
     - name: Cellular Automata Explorer
-      description: A full-fledged cellular automata simulation built with React and styled with Bootstrap, complete with 28 rule variants, various customizable parameters, a time machine, 3D rendering using three.js with option to download model as .obj, and live graphing of cell population with d3.js. Completed as part of the Harvard CS50X final project.
+      description: A full-fledged cellular automata simulation built with React and styled with Bootstrap, complete with 28 rule variants, various customizable parameters, a time machine, 3D rendering using three.js with the option to download model as .obj, and live graphing of cell population with d3.js. Completed as part of the Harvard CS50X final project.
       keywords: react, bootstrap, three.js, d3.js, webapp, p5.js, 
       img: "webm/cellular.webm"
       linkrepo: "https://github.com/leungjch/cellular-automata-webapp"
@@ -22,21 +22,21 @@
       linkdemo: ""
 
     - name: "PixelPaper: Infinite Wallpaper Generator App"
-      description: 
+      description: "An app that generates essentially an infinite combination of patterned phone wallpapers using procedural generation techniques. Published on the Google Play Store."
       keywords: java, android, procedural-generation, personalization
       img: "images/projects/pixelpaper.png"
       linkrepo: "https://github.com/leungjch/WallpaperGenerator_App"
       linkdemo: "https://play.google.com/store/apps/details?id=com.pixelpaper.pixelpaper.wallpapergenerator"
 
     - name: Magnetic Pendulum
-      description: 
+      description: "A unique method of generating fractal images by simulating the chaotic behaviour of a swinging pendulum that is attracted to various magnets on the board using numerical integration of forces involving Hooke's Law and Coulomb's Law. The colour of the pixel depends on the magnet that the pendulum landed on starting at the pixel's location, and the brightness of the colour corresponds to how quickly it lands on that magnet. A black region indicates that it the pendulum instantly falls onto the magnet, and light, colourful regions indicate areas where the pendulum took a lot of time to land on the final magnet."
       keywords: python, numerical-integration, chaos-theory
       img: "images/projects/magnetic_pendulum_collage.png"
       linkrepo: "https://github.com/leungjch/Magnetic-Pendulum"
       linkdemo: ""
 
-    - name: Epicycles Simulator
-      description: 
+    - name: Epicycle (Fourier Series) Simulator
+      description: "A web implementation of epicycles (essentially a sum of sine and cosine waves) which is capable of generating beautiful flower-like shapes and approximating any function via Fourier series (e.g. the square wave shown). Epicycles are in your digital circuits (sort of), the classic Spirograph toys, and were the backbone of the geocentric model of the solar system."
       keywords: javascript, p5.js, math
       img: "webm/epicycle.webm"
       linkrepo: "https://github.com/leungjch/epicycles.js"
@@ -57,7 +57,7 @@
       linkdemo: ""
 
     - name: DIY VR Styrofoam Headset
-      description: "A VR headset built from scratch. Head tracking was done using the MPU-6050 gyroscope and accelerometer sensor (~$30), which is sent to the Arduino Micro and converted into mouse input. Fully compatible with all SteamVR games. The headset display is my phone, which streams video my desktop."
+      description: "A VR headset built from scratch. Head tracking was done using the MPU-6050 gyroscope and accelerometer sensor (~$30), which is sent to the Arduino Micro and converted into mouse input. Fully compatible with all SteamVR games (I'm playing VRChat in the video). The headset display is my phone, which streams video from my desktop."
       keywords: vr, arduino, c++, hardware, openvr, steamvr
       img: "webm/vr_mute.webm"
       linkrepo: "https://github.com/leungjch/arduino-styrofoam-VR"
@@ -78,7 +78,7 @@
       linkdemo: ""
 
     - name: "Mulander: A Lunar Lander Clone"
-      description: "A clone of the classic lunar lander game, where the objective is to safely land on landing zones while being mindful of speed, alignment, and fuel (it's harder than it looks!). Features an infinite landscape using the midpoint displacement algorithm. Made for my Grade 11 Computer Science final project, which I took in Grade 10."
+      description: "A clone of the classic lunar lander game, where the objective is to safely land on landing zones while being mindful of speed, gravity, alignment, and fuel (it's harder to play than it looks!). Features an infinite landscape using the midpoint displacement algorithm. Made for my Grade 11 Computer Science final project, which I took in Grade 10."
       keywords: "actionscript, gamedev, lunar-lander"
       img: "images/projects/mulander_crop.png"
       linkrepo: "https://github.com/leungjch/Magnetic-Pendulum"
