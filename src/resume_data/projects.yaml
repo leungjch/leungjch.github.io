@@ -9,7 +9,7 @@
 
     - name: Cellular Automata Explorer
       description: A full-fledged cellular automata simulation built with React and styled with Bootstrap, complete with 28 rule variants, various customizable parameters, a time machine, 3D rendering using three.js with the option to download model as .obj, and live graphing of cell population with d3.js. Completed as part of the Harvard CS50X final project.
-      keywords: react, bootstrap, three.js, d3.js, webapp, p5.js, 
+      keywords: react, bootstrap, three.js, d3.js, webapp, p5.js
       img: "webm/cellular.webm"
       linkrepo: "https://github.com/leungjch/cellular-automata-webapp"
       linkdemo: "https://justinleung.me/cellular-automata-webapp/"
@@ -64,16 +64,16 @@
       linkdemo: ""
 
     - name: "Arduino Pen Plotter"
-      description: 
+      description: "A 2D printer that works on the size of a sticky note. The printer moves in the XY axis using the motors of old CD drives, and the pen is controlled with a servo motor. Supports printing any image up to a grand resolution of 64x64."
       keywords: arduino, hardware, gcode 
       img: "webm/plotter.webm"
       linkrepo: "https://github.com/leungjch/arduino_plotter"
       linkdemo: ""
 
     - name: Chemical Equilibrium Simulation
-      description: 
+      description: "A demonstration of Le Chatelier's Principle with a simple molecular-scale kinetic simulation with elastic collisions. Implemented in Python using pygame. Made for my Grade 12 IB Chemistry project."
       keywords: "python, pygame, simulation, chemistry, le-chateliers-principle"
-      img: "images/projects/magnetic_pendulum.png"
+      img: ""
       linkrepo: "https://github.com/leungjch/chem_equilibrium_simulation"
       linkdemo: ""
 
