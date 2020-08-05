@@ -70,6 +70,14 @@
       linkrepo: "https://github.com/leungjch/arduino_plotter"
       linkdemo: ""
 
+    - name: Measuring Planck's Constant using LEDs
+      description: "A demonstration of Le Chatelier's Principle with a simple molecular-scale kinetic simulation with elastic collisions. Implemented in Python using pygame. Made for my Grade 12 IB Chemistry project."
+      keywords: "python, pandas, physics"
+      img: ""
+      linkrepo: "https://github.com/leungjch/chem_equilibrium_simulation"
+      linkdemo: ""
+
+
     - name: Chemical Equilibrium Simulation
       description: "A demonstration of Le Chatelier's Principle with a simple molecular-scale kinetic simulation with elastic collisions. Implemented in Python using pygame. Made for my Grade 12 IB Chemistry project."
       keywords: "python, pygame, simulation, chemistry, le-chateliers-principle"
