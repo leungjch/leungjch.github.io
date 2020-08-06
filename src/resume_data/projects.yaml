@@ -1,7 +1,7 @@
 ---
 - projects:
     - name: "Emoji Ninja: P2P AI-Powered Fitness Webgame"
-      description: 
+      description: "A peer-to-peer kinect-like fitness game that requires only your webcam. Destroy and avoid the enemies, and move quickly within 60 seconds to win against your friends, while getting a workout! Frontend created using React app and Material-UI for styling. Websocket server run through Node.js (Express). Smooth video calling between two peers is achieved through simple-peer, a WebRTC Javascript library. Project deployed on Heroku. The game is built using p5.js, and I implemented a quadtree to improve collision detection time complexity to O(nlogn) from O(n²)."
       keywords: javascript, node.js, react, express, p5.js, simple-peer, posenet
       img: 
       linkrepo: "https://github.com/leungjch/posenet-game-peer2peer"
@@ -10,13 +10,13 @@
     - name: Cellular Automata Explorer
       description: A full-fledged cellular automata simulation built with React and styled with Bootstrap, complete with 28 rule variants, various customizable parameters, a time machine, 3D rendering using three.js with the option to download model as .obj, and live graphing of cell population with d3.js. Completed as part of the Harvard CS50X final project.
       keywords: react, bootstrap, three.js, d3.js, webapp, p5.js
-      img: "webm/cellular.webm"
+      img: "webm/cellular_holdd.webm"
       linkrepo: "https://github.com/leungjch/cellular-automata-webapp"
       linkdemo: "https://justinleung.me/cellular-automata-webapp/"
 
     - name: Druglike Molecule Generation with Variational Autoencoders 
-      description:
-      keywords: python, tensorflow, keras, deep-learning, chemistry
+      description: "A variational autoencoder trained to generate unique druglike organic molecules using Tensorflow. I used a training set of 100K molecules, convnets for the encoder and GRUs for the decoder. I used RDKit to plot and verify generated molecules (only 1.5% of molecules were valid), and used QED and SAS to quantify the druglikeness of a molecule."
+      keywords: python, tensorflow, keras, rdkit, deep-learning, chemistry
       img: "images/projects/drug_vae.png"
       linkrepo: "https://github.com/leungjch/drug_VAE"
       linkdemo: ""
@@ -70,20 +70,20 @@
       linkrepo: "https://github.com/leungjch/arduino_plotter"
       linkdemo: ""
 
-    - name: Measuring Planck's Constant using LEDs
-      description: "A demonstration of Le Chatelier's Principle with a simple molecular-scale kinetic simulation with elastic collisions. Implemented in Python using pygame. Made for my Grade 12 IB Chemistry project."
-      keywords: "python, pandas, physics"
-      img: ""
-      linkrepo: "https://github.com/leungjch/chem_equilibrium_simulation"
-      linkdemo: ""
+    # - name: Measuring Planck's Constant using LEDs
+    #   description: "A demonstration of Le Chatelier's Principle with a simple molecular-scale kinetic simulation with elastic collisions. Implemented in Python using pygame. Made for my Grade 12 IB Chemistry project."
+    #   keywords: "python, pandas, physics"
+    #   img: ""
+    #   linkrepo: "https://github.com/leungjch/chem_equilibrium_simulation"
+    #   linkdemo: ""
 
 
-    - name: Chemical Equilibrium Simulation
-      description: "A demonstration of Le Chatelier's Principle with a simple molecular-scale kinetic simulation with elastic collisions. Implemented in Python using pygame. Made for my Grade 12 IB Chemistry project."
-      keywords: "python, pygame, simulation, chemistry, le-chateliers-principle"
-      img: ""
-      linkrepo: "https://github.com/leungjch/chem_equilibrium_simulation"
-      linkdemo: ""
+    # - name: Chemical Equilibrium Simulation
+    #   description: "A demonstration of Le Chatelier's Principle with a simple molecular-scale kinetic simulation with elastic collisions. Implemented in Python using pygame. Made for my Grade 12 IB Chemistry project."
+    #   keywords: "python, pygame, simulation, chemistry, le-chateliers-principle"
+    #   img: ""
+    #   linkrepo: "https://github.com/leungjch/chem_equilibrium_simulation"
+    #   linkdemo: ""
 
     - name: "Mulander: A Lunar Lander Clone"
       description: "A clone of the classic lunar lander game, where the objective is to safely land on landing zones while being mindful of speed, gravity, alignment, and fuel (it's harder to play than it looks!). Features an infinite landscape using the midpoint displacement algorithm. Made for my Grade 11 Computer Science final project, which I took in Grade 10."
