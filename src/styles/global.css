@@ -4,7 +4,7 @@
   .user {
     display: flex;
     flex-direction: row;
-    margin: 0 auto 12px auto;
+    margin: 0 auto 0 auto;
     width: 50%;
   }
   .user:last-child {

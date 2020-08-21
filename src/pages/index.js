@@ -30,7 +30,7 @@ export default function Home({ data }) {
           <ul style={{margin:"1%"}}>
             {work.map((data, index) => {
               return <li key={`work_${index}`} style={{listStyleType:"none"}}>
-                <h2>{data.place}</h2>
+                <h3>{data.place}</h3>
                 <div class="container" style={{flexDirection:"column", justifyContent:"space-between"}}>
                   <div class="item" style={{float:"right"}}>{data.duration}</div>
                   <div class="item">{data.position}</div>
@@ -55,7 +55,7 @@ export default function Home({ data }) {
               }
               else
               {
-                image = <Image filename={data.img} maxHeight={"25vh"}
+                image = <Image filename={data.img} maxHeight={"100%"}
                 // className={styles.avatar}
                 imgStyle={{ objectFit: 'scale-down', objectPosition:"left"}}
                   />
@@ -70,14 +70,18 @@ export default function Home({ data }) {
 
                   <div 
                   style={{display:"flex", flexDirection:"row",
-                  // verticalAlign:"top",
-                  alignItems:"middle", border:"black", borderRadius:"2px"}}
+                  verticalAlign:"middle",
+                  alignItems:"middle", border:"black", marginBottom:"5%"}}
                   >
-                    <div style={{flexGrow:1, width:"25%", border:"gray", borderRadius:"3%",border:"solid", marginRight:"1%"}}>
+
+                    <div style={{flexGrow:1, width:"25%", marginRight:"5%", alignItems:"middle",
+                                justifyContent:"center"
+
+                     }}>
                       {image}
                     </div>
                     <div style={{width:"75%"}}>
-                      <h2 className={styles.username}>{data.name} {demo} {repo}</h2>
+                      <h3 style={{margin: "0% 0 2% 0"}}>{data.name} {demo} {repo}</h3>
                       <p className={styles.excerpt}>{data.description}</p>
                       <p>Keywords: <strong>{data.keywords}</strong></p>
                     </div>
