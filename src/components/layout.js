@@ -9,16 +9,25 @@ const ListLink = props => (
 export default function Layout({ children }) {
   return (
     <div style={{ margin: `0.2rem auto`, maxWidth: `50%`, padding: `0 1rem` }}>
-      <header style={{ marginBottom: `1.0rem` }}>
-        <h1 style={{float:`none`}}>Justin Leung</h1>
-        <ul style={{ listStyle: `none`, float: `right` }}>
-          <ListLink to="#work">Work</ListLink>
+
+    <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between", flexWrap:"wrap"}}>
+      {/* <header style={{ marginBottom: `2.0rem`}}> */}
+      <div>
+      <h1>Justin Leung</h1>
+      </div>
+      <div>
+      <ul style={{listStyle: `none`}}>
+          <ListLink to="#work"><h2>Work</h2></ListLink>
           {/* <ListLink to="/about/">Publications</ListLink> */}
-          <ListLink to="#projects">Projects</ListLink>
+          <ListLink to="#projects"><h2>Projects</h2></ListLink>
         </ul>
 
-      </header>
-      {children}
+      </div>
+      {/* </header> */}
     </div>
+    {children}
+
+    </div>
+
   )
 }

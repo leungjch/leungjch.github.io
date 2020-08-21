@@ -19,7 +19,7 @@ export default function Home({ data }) {
   return (
     <Layout>
       <div>
-      <h2> {basicInfo.email} </h2>
+      {/* <h2> {basicInfo.email} </h2> */}
 
       <div dangerouslySetInnerHTML={{ __html:basicInfo.summary}} />
         <div id="work">
@@ -29,10 +29,11 @@ export default function Home({ data }) {
               return <li key={`work_${index}`} style={{listStyleType:"none"}}>
                 <h2>{data.place}</h2>
                 <div class="container" style={{flexDirection:"column", justifyContent:"space-between"}}>
-                  <div class="item">{data.duration}</div>
+                  <div class="item" style={{float:"right"}}>{data.duration}</div>
                   <div class="item">{data.position}</div>
                 </div>
-                <p>{data.summary}</p>
+
+                <p style={{margin:"2%"}}>{data.summary}</p>
               </li>
             })}
           </ul>
@@ -40,8 +41,8 @@ export default function Home({ data }) {
 
         <div id="projects">
           <h1>Projects</h1> 
-          <p> I enjoy working on a variety of projects in my spare time. </p>
-          <ul>
+          <p> I enjoy working on a variety of projects in my spare time. Check out <a href="github.com/leungjch">my Github</a> to see more. </p>
+          <ul style={{margin:"1%"}}>
             {projects.map((data, index) => {
               var image;
               var demo;
@@ -51,7 +52,9 @@ export default function Home({ data }) {
               }
               else
               {
-                image = <Image filename={data.img} maxHeight={"30vh"} imgStyle={{ objectFit: 'contain' }}/>
+                image = <Image filename={data.img} maxHeight={"30vh"} imgStyle={{ objectFit: 'contain' }}
+                style={{float:"left"}}
+                />
               }
               if (data.linkdemo.length > 0)
               {
@@ -59,10 +62,14 @@ export default function Home({ data }) {
               }
               var repo = <a href={data.linkrepo}>[code]</a>
               return <li key={`projects_${index}`} style={{listStyleType:"none"}}>
-                <h2>{data.name} {demo} {repo}</h2>
-                {image}
-                <p>{data.description}</p>
-                <p>Keywords: <strong>{data.keywords}</strong></p>
+                  
+
+                <div>
+                  <h2>{data.name} {demo} {repo}</h2>
+                  {image}
+                  <p style={{float:'top'}}>{data.description}</p>
+                  <p>Keywords: <strong>{data.keywords}</strong></p>
+                </div>
               </li>
             })}
           </ul>
