@@ -24,7 +24,7 @@ export default function Home({ data }) {
       <div dangerouslySetInnerHTML={{ __html:basicInfo.summary}} />
         <div id="work">
           <h1> Work </h1>
-          <ul>
+          <ul style={{margin:"1%"}}>
             {work.map((data, index) => {
               return <li key={`work_${index}`} style={{listStyleType:"none"}}>
                 <h2>{data.place}</h2>
