@@ -55,9 +55,9 @@ export default function Home({ data }) {
               }
               else
               {
-                image = <Image filename={data.img} maxHeight={"100%"}
-                // className={styles.avatar}
-                imgStyle={{ objectFit: 'scale-down', objectPosition:"left"}}
+                image = <Image filename={data.img} maxHeight={"30vh"}
+                imgStyle={{ objectFit: 'scale-down', objectPosition:"center"}}
+                className={styles.zoom}
                   />
               }
               if (data.linkdemo.length > 0)
@@ -74,15 +74,15 @@ export default function Home({ data }) {
                   alignItems:"middle", border:"black", marginBottom:"5%"}}
                   >
 
-                    <div style={{flexGrow:1, width:"25%", marginRight:"5%", alignItems:"middle",
-                                justifyContent:"center"
-
+                    <div style={{flexGrow:1, width:"25%", marginRight:"5%",
+                                justifyContent:"center",
+                                
                      }}>
                       {image}
                     </div>
                     <div style={{width:"75%"}}>
                       <h3 style={{margin: "0% 0 2% 0"}}>{data.name} {demo} {repo}</h3>
-                      <p className={styles.excerpt}>{data.description}</p>
+                      <p>{data.description}</p>
                       <p>Keywords: <strong>{data.keywords}</strong></p>
                     </div>
                 </div>

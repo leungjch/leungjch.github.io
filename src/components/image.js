@@ -33,7 +33,7 @@ const Image = props => (
 
       //const imageSizes = image.node.childImageSharp.sizes; sizes={imageSizes}
       return <Img alt={props.alt}  fluid={image.node.childImageSharp.fluid} 
-      
+      className={styles.zoom}
       style={{ margin: '0rem', maxHeight: props.maxHeight}}
             imgStyle={props.imgStyle}
       />;

@@ -21,7 +21,6 @@ export default function Layout({ children }) {
           {/* <ListLink to="/about/">Publications</ListLink> */}
           <ListLink to="#projects"><h2>Projects</h2></ListLink>
         </ul>
-
       </div>
       {/* </header> */}
     </div>
