@@ -3,7 +3,7 @@ import Typography from "typography"
 import oceanBeachTheme from "typography-theme-ocean-beach"
 oceanBeachTheme.overrideThemeStyles = () => ({
     'a': {
-      color: "#999999",
+      color: "#00BFFF",
       },
   })
 const typography = new Typography(oceanBeachTheme)
