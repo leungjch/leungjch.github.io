@@ -14,19 +14,19 @@
       linkrepo: "https://github.com/leungjch/cellular-automata-webapp"
       linkdemo: "https://justinleung.me/cellular-automata-webapp/"
 
-    - name: Druglike Molecule Generation with Variational Autoencoders 
-      description: "A variational autoencoder trained to generate unique druglike organic molecules using Tensorflow. I used a training set of 100K molecules, convnets for the encoder and GRUs for the decoder. I used RDKit to plot and verify generated molecules and used QED and SAS to quantify the druglikeness of a molecule."
-      keywords: python, tensorflow, keras, rdkit, deep-learning, chemistry
-      img: "images/projects/drug_vae.png"
-      linkrepo: "https://github.com/leungjch/drug_VAE"
-      linkdemo: ""
-
     - name: "PixelPaper: Infinite Wallpaper Generator App"
       description: "An app that generates essentially an infinite combination of patterned phone wallpapers using procedural generation techniques. Published on the Google Play Store."
       keywords: java, android, procedural-generation, personalization
       img: "images/projects/pixelpaper.png"
       linkrepo: "https://github.com/leungjch/WallpaperGenerator_App"
       linkdemo: "https://play.google.com/store/apps/details?id=com.pixelpaper.pixelpaper.wallpapergenerator"
+
+    - name: Druglike Molecule Generation with Variational Autoencoders 
+      description: "A variational autoencoder trained to generate unique druglike organic molecules using Tensorflow. I used a training set of 100K molecules, convnets for the encoder and GRUs for the decoder. I used RDKit to plot and verify generated molecules and used QED and SAS to quantify the druglikeness of a molecule."
+      keywords: python, tensorflow, keras, rdkit, deep-learning, chemistry
+      img: "images/projects/drug_vae_crop.png"
+      linkrepo: "https://github.com/leungjch/drug_VAE"
+      linkdemo: ""
 
     - name: Magnetic Pendulum
       description: "A unique method of generating fractal images by simulating the chaotic behaviour of a swinging pendulum that is attracted to various magnets on the board using numerical integration of forces involving Hooke's Law and Coulomb's Law. The colour of the pixel depends on the magnet that the pendulum landed on starting at the pixel's location, and the brightness of the colour corresponds to how quickly it lands on that magnet. A black region indicates that it the pendulum instantly falls onto the magnet, and light, colourful regions indicate areas where the pendulum took a lot of time to land on the final magnet."
