@@ -18,6 +18,8 @@ export default function Home({ data }) {
   console.log(basicInfo, work, projects)
   return (
     <Layout>
+      <SEO title="Home" />
+
       <div>
       {/* <h2> {basicInfo.email} </h2> */}
 
