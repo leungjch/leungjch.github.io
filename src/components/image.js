@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
-
+import styles from '../styles/global.css'
 // Note: You can change "images" to whatever you'd like.
 
 const Image = props => (
@@ -14,7 +14,7 @@ const Image = props => (
               relativePath
               name
               childImageSharp {
-                fluid(maxWidth: 600) {
+                fluid(maxWidth: 500) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -33,8 +33,10 @@ const Image = props => (
 
       //const imageSizes = image.node.childImageSharp.sizes; sizes={imageSizes}
       return <Img alt={props.alt}  fluid={image.node.childImageSharp.fluid} 
-      style={{ margin: '1rem', maxHeight: props.maxHeight }}
-      imgStyle={{ objectFit: 'contain' }}/>;
+      
+      style={{ margin: '0rem', maxHeight: props.maxHeight }}
+      imgStyle={props.imgStyle}
+      />;
     }}
   />
 );

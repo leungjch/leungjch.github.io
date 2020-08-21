@@ -15,7 +15,7 @@
       linkdemo: "https://justinleung.me/cellular-automata-webapp/"
 
     - name: Druglike Molecule Generation with Variational Autoencoders 
-      description: "A variational autoencoder trained to generate unique druglike organic molecules using Tensorflow. I used a training set of 100K molecules, convnets for the encoder and GRUs for the decoder. I used RDKit to plot and verify generated molecules (only 1.5% of molecules were valid), and used QED and SAS to quantify the druglikeness of a molecule."
+      description: "A variational autoencoder trained to generate unique druglike organic molecules using Tensorflow. I used a training set of 100K molecules, convnets for the encoder and GRUs for the decoder. I used RDKit to plot and verify generated molecules and used QED and SAS to quantify the druglikeness of a molecule."
       keywords: python, tensorflow, keras, rdkit, deep-learning, chemistry
       img: "images/projects/drug_vae.png"
       linkrepo: "https://github.com/leungjch/drug_VAE"

@@ -2,6 +2,7 @@ import React from "react"
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 import { css } from "@emotion/core"
+import styles from '../styles/global.css'
 
 import { useStaticQuery, Link, graphql } from "gatsby"
 
@@ -50,13 +51,14 @@ export default function Home({ data }) {
               var demo;
               if (/[\/.](webm)$/i.test(data.img)) // if img is gif, use <img> tag, else use Gatsby Image tag
               {
-                image = <video autoplay = "true" loop="true" muted = "true" style={{width:"30%", height:'auto', backgroundColor:"white"}}> <source src={data.img} type = "video/webm" /> </video>
+                image = <video autoplay = "true" loop="true" muted = "true" style={{width:"100%", height:'auto', backgroundColor:"white", padding:"10px"}}> <source src={data.img} type = "video/webm" /> </video>
               }
               else
               {
-                image = <Image filename={data.img} maxHeight={"30vh"} imgStyle={{ objectFit: 'contain' }}
-                style={{float:"left"}}
-                />
+                image = <Image filename={data.img} maxHeight={"25vh"}
+                // className={styles.avatar}
+                imgStyle={{ objectFit: 'scale-down', objectPosition:"left"}}
+                  />
               }
               if (data.linkdemo.length > 0)
               {
@@ -66,11 +68,19 @@ export default function Home({ data }) {
               return <li key={`projects_${index}`} style={{listStyleType:"none"}}>
                   
 
-                <div>
-                  <h2>{data.name} {demo} {repo}</h2>
-                  {image}
-                  <p style={{float:'top'}}>{data.description}</p>
-                  <p>Keywords: <strong>{data.keywords}</strong></p>
+                  <div 
+                  style={{display:"flex", flexDirection:"row",
+                  // verticalAlign:"top",
+                  alignItems:"middle", border:"black", borderRadius:"2px"}}
+                  >
+                    <div style={{flexGrow:1, width:"25%", border:"gray", borderRadius:"3%",border:"solid", marginRight:"1%"}}>
+                      {image}
+                    </div>
+                    <div style={{width:"75%"}}>
+                      <h2 className={styles.username}>{data.name} {demo} {repo}</h2>
+                      <p className={styles.excerpt}>{data.description}</p>
+                      <p>Keywords: <strong>{data.keywords}</strong></p>
+                    </div>
                 </div>
               </li>
             })}

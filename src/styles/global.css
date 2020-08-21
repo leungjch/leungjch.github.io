@@ -1,3 +1,43 @@
 /* html {
     background-color: lavenderblush;
   } */
+  .user {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 12px auto;
+    width: 50%;
+  }
+  .user:last-child {
+    margin-bottom: 0;
+  }
+  .avatar {
+    flex: 0 0 96px;
+    width: 50%;
+    height: 0;
+    margin: 0;
+
+  }
+  .description {
+    /* flex: 1; */
+    /* margin-left: 18px; */
+    /* padding: 12px; */
+    width: 50%;
+  }
+  .username {
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+  .excerpt {
+    margin: 0;
+  }
+  .zoom {
+    padding: 0px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .zoom:hover {
+    transform: scale(5.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
