@@ -30,7 +30,7 @@ export default function Home({ data }) {
           <ul style={{margin:"1%"}}>
             {work.map((data, index) => {
               return <li key={`work_${index}`} style={{listStyleType:"none"}}>
-                <h3>{data.place}</h3>
+                <h2>{data.place}</h2>
                 <div class="container" style={{flexDirection:"column", justifyContent:"space-between"}}>
                   <div class="item" style={{float:"right"}}>{data.duration}</div>
                   <div class="item">{data.position}</div>
@@ -55,8 +55,8 @@ export default function Home({ data }) {
               }
               else
               {
-                image = <Image filename={data.img} maxHeight={"30vh"}
-                imgStyle={{ objectFit: 'scale-down', objectPosition:"center"}}
+                image = <Image filename={data.img} maxHeight={"33vh"}
+                imgStyle={{ objectFit: 'scale-down', objectPosition:"right"}}
                 className={styles.zoom}
                   />
               }
@@ -66,22 +66,21 @@ export default function Home({ data }) {
               }
               var repo = <a href={data.linkrepo}>[code]</a>
               return <li key={`projects_${index}`} style={{listStyleType:"none"}}>
-                  
-
+                
                   <div 
                   style={{display:"flex", flexDirection:"row",
                   verticalAlign:"middle",
                   alignItems:"middle", border:"black", marginBottom:"5%"}}
                   >
 
-                    <div style={{flexGrow:1, width:"25%", marginRight:"5%",
+                    <div style={{flexGrow:1, width:"30%", marginRight:"2%",
                                 justifyContent:"center",
                                 
                      }}>
                       {image}
                     </div>
-                    <div style={{width:"75%"}}>
-                      <h3 style={{margin: "0% 0 2% 0"}}>{data.name} {demo} {repo}</h3>
+                    <div style={{width:"70%"}}>
+                      <h2 style={{margin: "0% 0 2% 0"}}>{data.name} {demo} {repo}</h2>
                       <p>{data.description}</p>
                       <p>Keywords: <strong>{data.keywords}</strong></p>
                     </div>
@@ -105,7 +104,7 @@ export default function Home({ data }) {
                 color: inherit;
               `}
             >
-            <h3
+            <h2
               css={css`
                 margin-bottom: ${rhythm(1 / 4)};
               `}
@@ -118,7 +117,7 @@ export default function Home({ data }) {
               >
                 — {node.frontmatter.date}
               </span>
-            </h3>
+            </h2>
             <p>{node.excerpt}</p>
             </Link>
           </div>

@@ -8,7 +8,7 @@ const ListLink = props => (
 
 export default function Layout({ children }) {
   return (
-    <div style={{ margin: `0.2rem auto`, maxWidth: `50%`, padding: `0 1rem` }}>
+    <div style={{ margin: `0.2rem auto`, maxWidth: `60%`, padding: `0 1rem` }}>
 
     <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between", flexWrap:"wrap"}}>
       {/* <header style={{ marginBottom: `2.0rem`}}> */}

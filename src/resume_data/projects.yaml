@@ -17,7 +17,7 @@
     - name: "PixelPaper: Infinite Wallpaper Generator App"
       description: "An app that generates essentially an infinite combination of patterned phone wallpapers using procedural generation techniques. Published on the Google Play Store."
       keywords: java, android, procedural-generation, personalization
-      img: "images/projects/pixelpaper.png"
+      img: "images/projects/pixelpaper_collage2.png"
       linkrepo: "https://github.com/leungjch/WallpaperGenerator_App"
       linkdemo: "https://play.google.com/store/apps/details?id=com.pixelpaper.pixelpaper.wallpapergenerator"
 
@@ -86,7 +86,7 @@
     #   linkdemo: ""
 
     - name: "Mulander: A Lunar Lander Clone"
-      description: "A clone of the classic lunar lander game, where the objective is to safely land on landing zones while being mindful of speed, gravity, alignment, and fuel (it's harder to play than it looks!). Features an infinite landscape using the midpoint displacement algorithm. Made for my Grade 11 Computer Science final project, which I took in Grade 10."
+      description: "A clone of the classic lunar lander game, where the objective is to safely land on landing zones while being mindful of speed, gravity, alignment, and fuel (it's harder than it looks!). Features an infinite landscape using the midpoint displacement algorithm. Made for my Grade 11 Computer Science final project, which I took in Grade 10."
       keywords: "actionscript, gamedev, lunar-lander"
       img: "images/projects/mulander_crop.png"
       linkrepo: "https://github.com/leungjch/Magnetic-Pendulum"
@@ -100,8 +100,8 @@
       linkdemo: ""
 
     - name: "Pong Clone in C++"
-      description: "My first project: a Pong clone implemented in C++ using the SFML graphics library."
+      description: "My first project: a Pong clone implemented in C++ using the SFML graphics library. The ball speeds up every time it is hit, and the bounce angles were calculated using fancy trigonometry."
       keywords: c++, gamedev, sfml
-      img: 
+      img: "webm/pong_fast.webm"
       linkrepo: "https://github.com/leungjch/SFMLPong"
       linkdemo: ""
