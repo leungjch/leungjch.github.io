@@ -29,14 +29,14 @@
       linkdemo: ""
 
     - name: Magnetic Pendulum
-      description: "A unique method of generating fractal images by simulating the chaotic behaviour of a swinging pendulum that is attracted to various magnets on the board using numerical integration of forces involving Hooke's Law and Coulomb's Law. The colour of the pixel depends on the magnet that the pendulum landed on starting at the pixel's location, and the brightness of the colour corresponds to how quickly it lands on that magnet. A black region indicates that it the pendulum instantly falls onto the magnet, and light, colourful regions indicate areas where the pendulum took a lot of time to land on the final magnet."
+      description: "A unique method of generating fractals by simulating the chaotic behaviour of a swinging pendulum that is attracted to various magnets on the board. The physics simulation using numerical integration of spring and magnetic forces (Hooke's Law and Coulomb's Law). The colour of the pixel depends on the magnet that the pendulum landed on starting at the pixel's location, and the brightness of the colour corresponds to how quickly it lands on that magnet (blacker corresponds to less time required)."
       keywords: python, numerical-integration, chaos-theory
       img: "images/projects/magnetic_pendulum_collage.png"
       linkrepo: "https://github.com/leungjch/Magnetic-Pendulum"
       linkdemo: ""
 
     - name: Epicycle (Fourier Series) Simulator
-      description: "A web implementation of epicycles (essentially a sum of sine and cosine waves) which is capable of generating beautiful flower-like shapes and approximating any function via Fourier series (e.g. the square wave shown). Epicycles are in your digital circuits (sort of), the classic Spirograph toys, and were the backbone of the geocentric model of the solar system."
+      description: "A web implementation of epicycles (essentially a sum of sine and cosine waves) which is capable of generating beautiful flower-like shapes and approximating any function via Fourier series (e.g. the square wave shown). Epicycles are in your electronics (sort of), the classic Spirograph toys, and were the backbone of the geocentric model of the solar system."
       keywords: javascript, p5.js, math
       img: "webm/epicycle.webm"
       linkrepo: "https://github.com/leungjch/epicycles.js"
