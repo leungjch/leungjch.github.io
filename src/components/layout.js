@@ -25,13 +25,21 @@ export default function Layout({ children }) {
 
   return (
     <div style={{ margin: `0.2rem auto`, maxWidth: `60%`, padding: `0 1rem` }}>
+    <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between", flexWrap:"wrap"}}>
+      {/* <header style={{ marginBottom: `2.0rem`}}> */}
+      <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between", width:"50%"}}>
+	<ul style={{listStyle: `none`, margin:'0px', padding: "0", overflow:'hidden', width:"100%"}}>
+	  <li style={{float:"left", marginRight:"3%"}}>
 	<Img
 	  fixed = {data.file.childImageSharp.fixed}
 	 />
-    <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between", flexWrap:"wrap"}}>
-      {/* <header style={{ marginBottom: `2.0rem`}}> */}
-      <div>
-      <h1>Justin Leung</h1>
+	  </li>
+
+	<li style={{float:'left'}}>
+      <h1
+	  >Justin Leung</h1>
+	</li>
+	  </ul>
       </div>
       <div>
       <ul style={{listStyle: `none`}}>
