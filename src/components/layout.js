@@ -43,10 +43,10 @@ export default function Layout({ children }) {
       </div>
       <div>
       <ul style={{listStyle: `none`}}>
-          <ListLink to="#work"><h2>Work</h2></ListLink>
+          <ListLink to="/#work"><h2>Work</h2></ListLink>
           {/* <ListLink to="/about/">Publications</ListLink> */}
-          <ListLink to="#projects"><h2>Projects</h2></ListLink>
-	  <ListLink to="/blog/"><h2>Articles</h2></ListLink>
+          <ListLink to="/#projects"><h2>Projects</h2></ListLink>
+	  <ListLink to="/articles/"><h2>Articles</h2></ListLink>
 	  <ListLink to="/notes/"><h2>Notes</h2></ListLink>
         </ul>
       </div>

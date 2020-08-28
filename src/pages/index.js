@@ -26,7 +26,7 @@ export default function Home({ data }) {
 
       <div dangerouslySetInnerHTML={{ __html:basicInfo.summary}} />
         <div id="work">
-          <h1> Work </h1>
+          <h1> Work</h1>
           <ul style={{margin:"1%"}}>
             {work.map((data, index) => {
               return <li key={`work_${index}`} style={{listStyleType:"none"}}>
@@ -89,39 +89,6 @@ export default function Home({ data }) {
             })}
           </ul>
         </div>
-
-
-        {/* <h1 css={css`display: inline-block;border-bottom: 1px solid;`}>
-        Blog
-        </h1>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
-            <Link
-              to={node.fields.slug}
-              css={css`
-                text-decoration: none;
-                color: inherit;
-              `}
-            >
-            <h2
-              css={css`
-                margin-bottom: ${rhythm(1 / 4)};
-              `}
-            >
-              {node.frontmatter.title}{" "}
-              <span
-                css={css`
-                  color: #bbb;
-                `}
-              >
-                — {node.frontmatter.date}
-              </span>
-            </h2>
-            <p>{node.excerpt}</p>
-            </Link>
-          </div>
-        ))} */}
       </div>
     </Layout>
   )
@@ -168,24 +135,7 @@ export const query = graphql`
 
       }
     }
-}
+  }
 `
+
   
-//     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-//       totalCount
-//       edges {
-//         node {
-//           id
-//           frontmatter {
-//             title
-//             date(formatString: "DD MMMM, YYYY")
-//           }
-//           fields {
-//             slug
-//           }
-//           excerpt
-//         }
-//       }
-//     }
-//   }
-// `
