@@ -1,5 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
     <Link to={props.to}>{props.children}</Link>
@@ -7,9 +8,26 @@ const ListLink = props => (
 )
 
 export default function Layout({ children }) {
+  const data = useStaticQuery(
+	  graphql`
+	  	query {
+		    file(relativePath: { eq: "images/favicon.png" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fixed(width: 125, height: 125) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+  }
+  `)
+
   return (
     <div style={{ margin: `0.2rem auto`, maxWidth: `60%`, padding: `0 1rem` }}>
-
+	<Img
+	  fixed = {data.file.childImageSharp.fixed}
+	 />
     <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between", flexWrap:"wrap"}}>
       {/* <header style={{ marginBottom: `2.0rem`}}> */}
       <div>
