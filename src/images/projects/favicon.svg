@@ -39,9 +39,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="394.73725"
-     inkscape:cy="143.91195"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="460.72132"
+     inkscape:cy="417.8599"
      inkscape:document-units="mm"
      inkscape:current-layer="g1282"
      inkscape:document-rotation="0"
@@ -111,15 +111,23 @@
         <g
            transform="translate(13.546894,5.8774403)"
            id="g1282">
+          <rect
+             ry="0.52097684"
+             y="0.76745719"
+             x="-3.9283283"
+             height="250"
+             width="250"
+             id="rect1291"
+             style="fill:#ffe6d5;fill-opacity:1;stroke:#000000;stroke-width:5.465;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
           <path
-             sodipodi:nodetypes="cccccccsccccccccccc"
-             d="m 56.846812,27.983819 c -9.271172,0.01365 -45.831818,7.869327 -37.453527,58.914476 h 30.617768 c 0,0 -0.951055,-20.59487 8.928137,-23.241992 H 223.98786 V 28.045832 H 58.93919 c 0,0 -2.092378,1.262446 -2.092378,-0.06201 z M 73.228756,62.748975 V 177.48088 H 105.50482 V 62.748975 Z m 0,114.732415 c 0,0 -2.487244,21.90895 -38.383504,21.90895 l 0.354828,23.92418 c 0,0 71.1021,6.27688 70.30474,-45.83313 z"
-             style="fill:#004455;stroke:none;stroke-width:0.19993"
+             sodipodi:nodetypes="cccccccccccccccccc"
+             d="m 56.846812,27.983819 c -9.271172,0.01365 -45.831818,7.869327 -37.453527,58.914476 h 30.617768 c 0,0 -0.951055,-20.59487 8.928137,-23.241992 H 223.98786 V 28.045832 C 168.41809,26.925721 79.303688,27.983822 56.846812,27.983822 Z M 73.228756,62.748975 V 177.48088 H 105.50482 V 62.748975 Z m 0,114.732415 c 0,0 -3.293162,17.2131 -38.383504,17.2131 l 0.354828,28.62003 c 0,0 71.1021,6.27688 70.30474,-45.83313 z"
+             style="fill:#241c1c;stroke:none;stroke-width:0.19993"
              id="rect332" />
           <path
              sodipodi:nodetypes="ccccccccc"
              d="m 136.0808,72.775709 0,111.032361 v 32.85174 h 32.85174 52.99005 v -32.85174 h -52.99005 l 0,-111.032361 z"
-             style="fill:#ff7f2a;stroke:none;stroke-width:0.264583"
+             style="fill:#d45500;stroke:none;stroke-width:0.264583"
              id="rect1183" />
         </g>
       </g>
