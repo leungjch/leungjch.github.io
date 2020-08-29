@@ -3,14 +3,17 @@ import { useStaticQuery, Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import { css } from "@emotion/core"
 import { rhythm } from "../utils/typography"
+import SEO from "../components/seo"
 
 export default function Blog({data})
 {
     return (
-        <Layout>
-        <h1 css={css`display: inline-block;border-bottom: 1px solid;`}>
+        <Layout title="blog">
+        <SEO title="Blog"/>
+
+        {/* <h1 css={css`display: inline-block;border-bottom: 1px solid;`}>
         Blog
-        </h1>
+        </h1> */}
         {/* <h4>{data.allMarkdownRemark.totalCount} Posts</h4> */}
         {data.allMarkdownRemark.edges.filter(function({node}) {
           if (node.frontmatter.type === 'blog') { return true }

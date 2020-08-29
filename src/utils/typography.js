@@ -3,7 +3,7 @@ import fairyGateTheme from "typography-theme-fairy-gates"
 import oceanBeachTheme from "typography-theme-ocean-beach"
 oceanBeachTheme.overrideThemeStyles = () => ({
     'a': {
-      color: "#00BFFF",
+      color: "#4C74B9",
       },
 })
 

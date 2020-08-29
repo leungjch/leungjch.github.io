@@ -9,7 +9,7 @@ require(`katex/dist/katex.min.css`)
 export default function NotePost({ data }) {
     const post = data.markdownRemark
     return (
-    <Layout>
+    <Layout title = "notes">
         <div>
             <h1> {post.frontmatter.title} </h1>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />

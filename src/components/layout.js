@@ -1,13 +1,15 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import "./layout.css"
 const ListLink = props => (
-  <li style={{ display: `block`, margin: `0.1rem` }}>
-    <Link to={props.to}>{props.children}</Link>
+  <li style={{ paddingBottom: "2px", marginBottom:"5%"}}>
+    <Link to={props.to} activeClassName={`active`}
+    style = {{color:"#373737"}}>{props.children}</Link>
   </li>
 )
 
-export default function Layout({ children }) {
+export default function Layout({ title, children }) {
   const data = useStaticQuery(
     graphql`
 	  	query {
@@ -24,13 +26,13 @@ export default function Layout({ children }) {
   `)
 
   return (
-    <div style={{ display: "flex", margin: "auto", maxWidth: "75rem", flexDirection: "row", alignContent: "flex-start" }}>
+    <div style={{ display: "flex", margin: "auto", marginTop:"2%", maxWidth: "65rem", flexDirection: "row", alignContent: "flex-start" }}>
 
 
-      <div style={{ marginTop: "3%", padding: "0.2rem" }}>
+      <div style={{ padding: "0.2rem" }}>
 
 
-        <ul style={{ listStyle: `none`, padding:"0.5rem"}}>
+        <ul style={{ listStyle: `none`, padding:"0.1rem"}}>
           <ListLink to="/">
             <Img
               fluid={data.file.childImageSharp.fluid}
@@ -48,12 +50,13 @@ export default function Layout({ children }) {
       </div>
 
       <div style={{ marginLeft: "2%", marginRight: "2%", maxWidth: `100%`, padding: `0.2rem` }}>
-        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", flexWrap: "wrap" }}>
           {/* <header style={{ marginBottom: `2.0rem`}}> */}
+          <span>
           <h1
-          >Justin Leung</h1>
+          >Justin Leung<span> <code style={{color:"#6398ac", fontSize:"0.75em"}}>@{title}</code></span></h1>
+
+          </span>
           {/* </header> */}
-        </div>
         {children}
 
       </div>
