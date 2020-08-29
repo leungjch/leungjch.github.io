@@ -11,8 +11,11 @@ export default function Notes({data})
         <h1 css={css`display: inline-block;border-bottom: 1px solid;`}>
         Notes
         </h1>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
+        {/* <h4>{data.allMarkdownRemark.totalCount} Posts</h4> */}
+        {data.allMarkdownRemark.edges.filter(function({node}) {
+          if (node.frontmatter.type === 'note') { return true }
+          else  { return false 
+          }}).map(({ node }) => (
           <div key={node.id}>
             <Link
               to={node.fields.slug}
