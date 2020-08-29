@@ -9,7 +9,7 @@ const ListLink = props => (
 
 export default function Layout({ children }) {
   const data = useStaticQuery(
-	  graphql`
+    graphql`
 	  	query {
 		    file(relativePath: { eq: "images/favicon.png" }) {
       childImageSharp {
@@ -24,35 +24,36 @@ export default function Layout({ children }) {
   `)
 
   return (
-    <div style={{ margin: `0.2rem auto`, maxWidth: `60%`, padding: `0 1rem` }}>
-    <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between", flexWrap:"wrap"}}>
-      {/* <header style={{ marginBottom: `2.0rem`}}> */}
-      <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between", width:"50%"}}>
-	<ul style={{listStyle: `none`, margin:'0px', padding: "0", overflow:'hidden', width:"100%"}}>
-	  <li style={{float:"left", marginRight:"3%"}}>
-	<Img
-	  fixed = {data.file.childImageSharp.fixed}
-	 />
-	  </li>
+    <div style={{ marginLeft: "10%", marginRight:"10%", maxWidth: `100%`, padding: `0rem` }}>
+      <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", flexWrap: "wrap" }}>
+        {/* <header style={{ marginBottom: `2.0rem`}}> */}
+        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "100%" }}>
+          <ul style={{ listStyle: `none`, margin: '0px', padding: "0", overflow: 'hidden', width: "50%" }}>
+            <li style={{ float: "left", marginRight: "2%" }}>
+              <Img
+                fixed={data.file.childImageSharp.fixed}
+              />
+            </li>
 
-	<li style={{float:'left'}}>
-      <h1
-	  >Justin Leung</h1>
-	</li>
-	  </ul>
+            <li style={{ float: 'left' }}>
+              <h1
+              >Justin Leung</h1>
+            </li>
+          </ul>
+          {/* <div style={{border:'solid', borderColor:"black"}}> */}
+          <ul style={{ listStyle: `none` }}>
+            <ListLink to="/#work"><h2>Work</h2></ListLink>
+            {/* <ListLink to="/about/">Publications</ListLink> */}
+            <ListLink to="/#projects"><h2>Projects</h2></ListLink>
+            <ListLink to="/blog/"><h2>Blog</h2></ListLink>
+            <ListLink to="/notes/"><h2>Notes</h2></ListLink>
+          </ul>
+        {/* </div> */}
+
+        </div>
+        {/* </header> */}
       </div>
-      <div>
-      <ul style={{listStyle: `none`}}>
-          <ListLink to="/#work"><h2>Work</h2></ListLink>
-          {/* <ListLink to="/about/">Publications</ListLink> */}
-          <ListLink to="/#projects"><h2>Projects</h2></ListLink>
-	  <ListLink to="/blog/"><h2>Blog</h2></ListLink>
-	  <ListLink to="/notes/"><h2>Notes</h2></ListLink>
-        </ul>
-      </div>
-      {/* </header> */}
-    </div>
-    {children}
+      {children}
 
     </div>
 
