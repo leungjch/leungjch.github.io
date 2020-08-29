@@ -396,7 +396,7 @@ figure {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
-pre {
+/* pre {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -408,7 +408,7 @@ pre {
   overflow: auto;
   word-wrap: normal;
   padding: 1.45rem;
-}
+} */
 table {
   margin-left: 0;
   margin-right: 0;
@@ -539,10 +539,10 @@ p *:last-child {
 li > p {
   margin-bottom: calc(1.45rem / 2);
 }
-code {
+/* code {
   font-size: 0.85rem;
   line-height: 1.45rem;
-}
+} */
 kbd {
   font-size: 0.85rem;
   line-height: 1.45rem;
@@ -589,21 +589,21 @@ td:last-child {
   padding-right: 0;
 }
 tt,
-code {
-  /* background-color: hsla(0, 0%, 0%, 0.089); */
+/* code {
+  background-color: hsla(0, 0%, 0%, 0.089);
   border-radius: 3px;
-  /* font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace; */
+  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
+    "Liberation Mono", Menlo, Courier, monospace;
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
-}
-pre code {
-  /* background-color: hsla(0, 0%, 0%, 0.219); */
+} */
+/* pre code {
+  background-color: hsla(0, 0%, 0%, 0.219);
   border-radius: 3px;
   background: none;
   line-height: 1.42;
-}
+} */
 code:before,
 code:after,
 tt:before,
@@ -625,3 +625,35 @@ pre tt:after {
 .active{
   text-decoration: overline underline;
 } 
+
+/**
+ * Add back the container background-color, border-radius, padding, margin
+ * and overflow that we removed from <pre>.
+ */
+ .gatsby-highlight {
+  background-color: #2d2d2d;
+  border-radius: 0.5em;
+  margin: 0.5em 0;
+  padding: 1em;
+  overflow: auto;
+}
+
+/**
+ * Remove the default PrismJS theme background-color, border-radius, margin,
+ * padding and overflow.
+ * 1. Make the element just wide enough to fit its content.
+ * 2. Always fill the visible space in .gatsby-highlight.
+ * 3. Adjust the position of the line numbers
+ */
+.gatsby-highlight pre[class*="language-"] {
+  /* background-color: transparent; */
+  margin: 0;
+  padding: 0;
+  overflow: initial;
+  float: left; /* 1 */
+  min-width: 100%; /* 2 */
+}
+
+.gatsby-highlight pre[class*="language-"].line-numbers {
+  padding-left: 2.8em; /* 3 */
+}
