@@ -38,6 +38,7 @@ export default function Blog({data})
                 — {node.frontmatter.date}
               </span>
             </h2>
+            <p>Tags: <strong>{node.frontmatter.tags}</strong></p>
             {/* <p>{node.excerpt}</p> */}
             </Link>
           </div>
@@ -58,6 +59,7 @@ export const query = graphql`
                   title
                   date(formatString: "DD MMMM, YYYY")
                   type
+                  tags
                 }
                 fields {
                   slug

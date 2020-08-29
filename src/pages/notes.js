@@ -39,6 +39,7 @@ export default function Notes({data})
               </span>
             </h2>
             {/* <p>{node.excerpt}</p> */}
+            <p>Tags: <strong>{node.frontmatter.tags}</strong></p>
             </Link>
           </div>
         ))}
@@ -58,6 +59,7 @@ export const query = graphql`
                   title
                   date(formatString: "DD MMMM, YYYY")
                   type
+                  tags
                 }
                 fields {
                   slug

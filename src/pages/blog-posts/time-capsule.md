@@ -2,7 +2,7 @@
 title: "Time Capsule"
 date: "2020-08-28"
 type: "blog"
-tags: "goals"
+tags: "reflection"
 ---
 Hi, you're reading my first blog post. I'm not sure if anyone will bother reading these - it would really depend on what sort of stuff I'm writing about and whether it's any interest to people. Anyways, I'll be starting university in less than two weeks and I'd like to create a pseudo time capsule for myself, outlining my goals for this website and for my own development so that someday I can look back on this writing and see how I had progressed.
 
