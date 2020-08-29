@@ -26,11 +26,11 @@ export default function Home({ data }) {
 
       <div dangerouslySetInnerHTML={{ __html:basicInfo.summary}} />
         <div id="work">
-          <h1> Work</h1>
+          <h2> Work</h2>
           <ul style={{margin:"1%"}}>
             {work.map((data, index) => {
               return <li key={`work_${index}`} style={{listStyleType:"none"}}>
-                <h2>{data.place}</h2>
+                <h3>{data.place}</h3>
                 <div class="container" style={{flexDirection:"column", justifyContent:"space-between"}}>
                   <div class="item" style={{float:"right"}}>{data.duration}</div>
                   <div class="item">{data.position}</div>
@@ -43,7 +43,7 @@ export default function Home({ data }) {
         </div>
 
         <div id="projects">
-          <h1>Projects</h1> 
+          <h2>Projects</h2> 
           <p> I enjoy working on a variety of projects in my spare time. Check out <a href="https://github.com/leungjch">my Github</a> to see more. </p>
           <ul style={{margin:"1%"}}>
             {projects.map((data, index) => {
@@ -51,7 +51,7 @@ export default function Home({ data }) {
               var demo;
               if (/[\/.](webm)$/i.test(data.img)) // if img is gif, use <img> tag, else use Gatsby Image tag
               {
-                image = <video autoplay = "true" loop="true" muted = "true" style={{width:"100%", height:'auto', backgroundColor:"white", padding:"10px"}}> <source src={data.img} type = "video/webm" /> </video>
+                image = <video autoplay = "true" loop="true" muted = "true" style={{width:"100%", maxHeight:'20rem', backgroundColor:"white", padding:"10px"}}> <source src={data.img} type = "video/webm" /> </video>
               }
               else
               {
@@ -80,7 +80,7 @@ export default function Home({ data }) {
                       {image}
                     </div>
                     <div style={{width:"70%"}}>
-                      <h2 style={{margin: "0% 0 2% 0"}}>{data.name} {demo} {repo}</h2>
+                      <h3 style={{margin: "0% 0 2% 0"}}>{data.name} {demo} {repo}</h3>
                       <p>{data.description}</p>
                       <p>Keywords: <strong>{data.keywords}</strong></p>
                     </div>
