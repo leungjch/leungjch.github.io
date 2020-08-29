@@ -21,7 +21,7 @@ export default function Home({ data }) {
     <Layout>
       <SEO title="Home" />
 
-      <div>
+      <div style={{marginRight:"20%"}}>
       {/* <h2> {basicInfo.email} </h2> */}
 
       <div dangerouslySetInnerHTML={{ __html:basicInfo.summary}} />
@@ -52,7 +52,7 @@ export default function Home({ data }) {
               if (/[\/.](webm)$/i.test(data.img)) // if img is gif, use <img> tag, else use Gatsby Image tag
               {
                 image = <video autoplay = "true" loop="true" muted = "true" 
-                style={{width:"100%", maxHeight:'20rem', backgroundColor:"white", marginLeft:"rem", padding:"2px"}}> <source src={data.img} type = "video/webm" /> </video>
+                style={{width:"100%", maxHeight:'33vh', backgroundColor:"white", marginLeft:"rem", padding:"2px"}}> <source src={data.img} type = "video/webm" /> </video>
               }
               else
               {
@@ -66,7 +66,7 @@ export default function Home({ data }) {
                 demo = <a href={data.linkdemo}>[demo]</a>
               }
               var repo = <a href={data.linkrepo}>[code]</a>
-              return <li key={`projects_${index}`} style={{listStyleType:"none", marginLeft:"-8%"}}>
+              return <li key={`projects_${index}`} style={{listStyleType:"none", marginLeft:"-25%"}}>
                 
                   <div 
                   style={{display:"flex", flexDirection:"row",
@@ -74,7 +74,7 @@ export default function Home({ data }) {
                   alignItems:"middle", border:"black", marginBottom:"5%"}}
                   >
 
-                    <div style={{flexGrow:1, width:"10%", marginRight:"1%",
+                    <div style={{flexGrow:1, width:"30%", marginRight:"5%",
                                 justifyContent:"center",
                                 
                      }}>

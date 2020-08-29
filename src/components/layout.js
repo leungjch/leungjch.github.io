@@ -15,7 +15,7 @@ export default function Layout({ children }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
-        fluid(maxWidth:100) {
+        fluid{
           ...GatsbyImageSharpFluid
         }
       }
@@ -24,39 +24,39 @@ export default function Layout({ children }) {
   `)
 
   return (
-    <div style={{display:"flex", flexDirection:"row", alignContent:"flex-start"}}>
+    <div style={{ display: "flex", margin: "auto", maxWidth: "75rem", flexDirection: "row", alignContent: "flex-start" }}>
 
 
-        <div style={{margin:"0%", padding:"0.2rem"}}>
+      <div style={{ marginTop: "3%", padding: "0.2rem" }}>
 
 
-          <ul style={{listStyle: `none`}}>
+        <ul style={{ listStyle: `none`, padding:"0.5rem"}}>
           <ListLink to="/">
-              <Img
-                fluid={data.file.childImageSharp.fluid}
-              />
-        </ListLink>
-            <ListLink to="/#work"><h3>Work</h3></ListLink>
-            {/* <ListLink to="/about/">Publications</ListLink> */}
-            <ListLink to="/#projects"><h3>Projects</h3></ListLink>
-            <ListLink to="/blog/"><h3>Blog</h3></ListLink>
-            <ListLink to="/notes/"><h3>Notes</h3></ListLink>
-            <ListLink to="https://github.com/leungjch"><h3>Github</h3></ListLink>
+            <Img
+              fluid={data.file.childImageSharp.fluid}
+            />
+          </ListLink>
+          <ListLink to="/#work"><h3>Work</h3></ListLink>
+          {/* <ListLink to="/about/">Publications</ListLink> */}
+          <ListLink to="/#projects"><h3>Projects</h3></ListLink>
+          <ListLink to="/blog/"><h3>Blog</h3></ListLink>
+          <ListLink to="/notes/"><h3>Notes</h3></ListLink>
+          <ListLink to="https://github.com/leungjch"><h3>Github</h3></ListLink>
 
-            
-          </ul>
-        </div>
 
-        <div style={{ marginLeft: "1%", marginRight:"5%", maxWidth: `100%`, padding: `0.2rem` }}>
-      <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", flexWrap: "wrap" }}>
-        {/* <header style={{ marginBottom: `2.0rem`}}> */}
-        <h1
-              >Justin Leung</h1>
-        {/* </header> */}
+        </ul>
       </div>
-      {children}
 
-    </div>
+      <div style={{ marginLeft: "2%", marginRight: "2%", maxWidth: `100%`, padding: `0.2rem` }}>
+        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", flexWrap: "wrap" }}>
+          {/* <header style={{ marginBottom: `2.0rem`}}> */}
+          <h1
+          >Justin Leung</h1>
+          {/* </header> */}
+        </div>
+        {children}
+
+      </div>
 
 
     </div>
