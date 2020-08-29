@@ -30,16 +30,19 @@ export default function Notes({data})
               `}
             >
               {node.frontmatter.title}{" "}
-              <span
+              {/* <span
                 css={css`
                   color: #bbb;
                 `}
               >
                 — {node.frontmatter.date}
-              </span>
+              </span> */}
             </h2>
             {/* <p>{node.excerpt}</p> */}
-            <p>Tags: <strong>{node.frontmatter.tags}</strong></p>
+            <small>
+              <p style={{marginBottom:"0%"}}>{node.wordCount.words} words — <em>{node.frontmatter.date}</em></p>
+              <p>Tags: <strong>{node.frontmatter.tags}</strong></p>
+            </small>
             </Link>
           </div>
         ))}
@@ -60,6 +63,9 @@ export const query = graphql`
                   date(formatString: "DD MMMM, YYYY")
                   type
                   tags
+                }
+                wordCount {
+                  words
                 }
                 fields {
                   slug

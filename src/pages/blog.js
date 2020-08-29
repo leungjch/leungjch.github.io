@@ -30,15 +30,19 @@ export default function Blog({data})
               `}
             >
               {node.frontmatter.title}{" "}
-              <span
+              {/* <span
                 css={css`
                   color: #bbb;
                 `}
               >
                 — {node.frontmatter.date}
-              </span>
+              </span> */}
             </h2>
+            <small>
+            <p style={{marginBottom:"0%"}}>{node.timeToRead} min read — <em>{node.frontmatter.date}</em></p>
             <p>Tags: <strong>{node.frontmatter.tags}</strong></p>
+
+            </small>
             {/* <p>{node.excerpt}</p> */}
             </Link>
           </div>
@@ -55,6 +59,7 @@ export const query = graphql`
             edges {
               node {
                 id
+                timeToRead
                 frontmatter {
                   title
                   date(formatString: "DD MMMM, YYYY")
