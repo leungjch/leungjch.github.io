@@ -6,7 +6,9 @@ oceanBeachTheme.overrideThemeStyles = () => ({
       color: "#00BFFF",
       },
 })
-const typography = new Typography(fairyGateTheme)
+
+
+const typography = new Typography(oceanBeachTheme)
 
 export const { scale, rhythm, options } = typography
 export default typography
