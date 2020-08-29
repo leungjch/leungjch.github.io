@@ -6,10 +6,19 @@
 const path = require(`path`)
 
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const { notEqual } = require("assert")
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-  if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+  if (node.internal.type === `MarkdownRemark` && node.frontmatter.type === `blog`) {
+    const slug = createFilePath({ node, getNode, basePath: `pages/blog-posts` })
+    createNodeField({
+      node,
+      name: `slug`,
+      value: slug,
+    })
+  }
+  if (node.internal.type === `MarkdownRemark` && node.frontmatter.type === `note`) {
+    const slug = createFilePath({ node, getNode, basePath: `pages/notes-posts` })
     createNodeField({
       node,
       name: `slug`,
@@ -28,6 +37,9 @@ exports.createPages = async ({ graphql, actions }) => {
       allMarkdownRemark {
         edges {
           node {
+            frontmatter {
+              type
+            }
             fields {
               slug
             }
@@ -37,15 +49,30 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `)
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    createPage({
-      path: node.fields.slug,
-      component: path.resolve(`./src/templates/blog-post.js`),
-      context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
-        slug: node.fields.slug,
-      },
-    })
+    if (node.frontmatter.type === `blog`)
+    {
+      createPage({
+        path: node.fields.slug,
+        component: path.resolve(`./src/templates/blog-post.js`),
+        context: {
+          // Data passed to context is available
+          // in page queries as GraphQL variables.
+          slug: node.fields.slug,
+        },
+      })
+    }
+    if (node.frontmatter.type === `note`)
+    {
+      createPage({
+        path: node.fields.slug,
+        component: path.resolve(`./src/templates/note-post.js`),
+        context: {
+          // Data passed to context is available
+          // in page queries as GraphQL variables.
+          slug: node.fields.slug,
+        },
+      })
+    }
   })
 }
 

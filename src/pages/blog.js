@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import { css } from "@emotion/core"
 import { rhythm } from "../utils/typography"
 
-export default function Articles({data})
+export default function Blog({data})
 {
     return (
         <Layout>
@@ -35,7 +35,7 @@ export default function Articles({data})
                 — {node.frontmatter.date}
               </span>
             </h2>
-            <p>{node.excerpt}</p>
+            {/* <p>{node.excerpt}</p> */}
             </Link>
           </div>
         ))}
@@ -54,6 +54,7 @@ export const query = graphql`
                 frontmatter {
                   title
                   date(formatString: "DD MMMM, YYYY")
+                  type
                 }
                 fields {
                   slug

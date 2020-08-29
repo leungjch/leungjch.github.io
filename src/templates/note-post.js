@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 // Using katex
 require(`katex/dist/katex.min.css`)
 
-export default function BlogPost({ data }) {
+export default function NotePost({ data }) {
     const post = data.markdownRemark
     return (
     <Layout>
