@@ -15,7 +15,7 @@ export default function Layout({ children }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
-        fluid {
+        fluid(maxWidth:100) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -24,25 +24,30 @@ export default function Layout({ children }) {
   `)
 
   return (
-    <div>
+    <div style={{display:"flex", flexDirection:"row", alignContent:"flex-start"}}>
 
 
-        <div style={{float:"left", padding:"1rem"}}>
-        <Img
+        <div style={{margin:"0%", padding:"0.2rem"}}>
+
+
+          <ul style={{listStyle: `none`}}>
+          <ListLink to="/">
+              <Img
                 fluid={data.file.childImageSharp.fluid}
               />
-
-          <ul style={{listStyle: `none` }}>
+        </ListLink>
             <ListLink to="/#work"><h3>Work</h3></ListLink>
             {/* <ListLink to="/about/">Publications</ListLink> */}
             <ListLink to="/#projects"><h3>Projects</h3></ListLink>
             <ListLink to="/blog/"><h3>Blog</h3></ListLink>
             <ListLink to="/notes/"><h3>Notes</h3></ListLink>
+            <ListLink to="https://github.com/leungjch"><h3>Github</h3></ListLink>
+
             
           </ul>
         </div>
 
-        <div style={{ marginLeft: "10%", marginRight:"10%", maxWidth: `100%`, padding: `0rem` }}>
+        <div style={{ marginLeft: "1%", marginRight:"5%", maxWidth: `100%`, padding: `0.2rem` }}>
       <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", flexWrap: "wrap" }}>
         {/* <header style={{ marginBottom: `2.0rem`}}> */}
         <h1
