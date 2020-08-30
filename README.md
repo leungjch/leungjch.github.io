@@ -13,6 +13,6 @@ I built the website with Gatsby.js, a static site generator which uses React.js 
 
 I template my resume data in YAML, a human-readable "markup" language. I used the Gatsby plugin `gatsby-transformer-yaml` to fetch the data via GraphQL queries, which I render in my pages.  
 
-To write blog posts and post my notes, I used `gatsby-transformer-remark`, which parses Markdown files. The `gatsby-remark-katex` allows for KaTeX math integration, which is a must have for notes.
+To write blog posts and post my notes, I used `gatsby-transformer-remark`, which parses Markdown files. The plugin `gatsby-remark-katex` allows for KaTeX math integration, which is a must have for notes. I used the plugin `gatsby-remark-prism` to enable syntax highlighting for code in my notes/articles.
 
 I deploy the website with `npm run deploy`, which creates a build on the `master` branch. I store the source code on the `source` branch. I registered the [justinleung.me](https://justinleung.me) domain on NameCheap, which gives out a free 1-year .me domain to students.
