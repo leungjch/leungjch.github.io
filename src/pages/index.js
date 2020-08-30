@@ -52,13 +52,13 @@ export default function Home({ data }) {
               if (/[\/.](webm)$/i.test(data.img)) // if img is gif, use <img> tag, else use Gatsby Image tag
               {
                 image = <video autoplay = "true" loop="true" muted = "true" 
+                className="zoom"
                 style={{width:"100%", maxHeight:'33vh', backgroundColor:"white", marginLeft:"rem", padding:"2px"}}> <source src={data.img} type = "video/webm" /> </video>
               }
               else
               {
                 image = <Image filename={data.img} maxHeight={"33vh"}
                 imgStyle={{ objectFit: 'scale-down', objectPosition:"right"}}
-                className={styles.zoom}
                   />
               }
               if (data.linkdemo.length > 0)
