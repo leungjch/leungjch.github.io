@@ -623,7 +623,7 @@ pre tt:after {
   }
 }
 .active{
-  text-decoration: overline underline;
+  text-decoration: underline;
 } 
 
 /**
