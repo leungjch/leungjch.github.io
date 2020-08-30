@@ -38,7 +38,7 @@ export default function Layout({ title, children }) {
               fluid={data.file.childImageSharp.fluid}
             />
           </ListLink>
-          <ListLink to="/#work"><h3>Work</h3></ListLink>
+          <ListLink to="/"><h3>Home</h3></ListLink>
           {/* <ListLink to="/about/">Publications</ListLink> */}
           <ListLink to="/#projects"><h3>Projects</h3></ListLink>
           <ListLink to="/blog/"><h3>Blog</h3></ListLink>
@@ -53,7 +53,7 @@ export default function Layout({ title, children }) {
           {/* <header style={{ marginBottom: `2.0rem`}}> */}
           <span>
           <h1
-          >Justin Leung<span> <code style={{color:"#6398ac", fontSize:"0.75em"}}>@{title}</code></span></h1>
+          >Justin Leung<span> <code style={{color:"#6398ac", fontSize:"0.75em"}}>//{title}</code></span></h1>
 
           </span>
           {/* </header> */}
