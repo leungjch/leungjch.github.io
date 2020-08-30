@@ -663,12 +663,9 @@ pre tt:after {
 }
 
 .zoom {
-  padding: 0px;
   background-color: transparent;
   transition: transform .2s; /* Animation */
-  margin: 0 auto;
   /* z-index: -1; */
-  overflow: hidden;
 
 }
 .zoom:hover {

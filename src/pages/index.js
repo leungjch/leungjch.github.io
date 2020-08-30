@@ -52,7 +52,6 @@ export default function Home({ data }) {
               if (/[\/.](webm)$/i.test(data.img)) // if img is gif, use <img> tag, else use Gatsby Image tag
               {
                 image = <video autoplay = "true" loop="true" muted = "true" 
-                className="zoom"
                 style={{width:"100%", maxHeight:'33vh', backgroundColor:"white", marginLeft:"rem", padding:"2px"}}> <source src={data.img} type = "video/webm" /> </video>
               }
               else
@@ -75,8 +74,11 @@ export default function Home({ data }) {
                   alignItems:"middle", border:"black", marginBottom:"5%"}}
                   >
 
-                    <div style={{flexGrow:1, width:"30%", marginRight:"5%",
+                    <div 
+                    className="zoom"
+                    style={{flexGrow:1, width:"30%", marginRight:"5%",
                                 justifyContent:"center",
+                                
                                 
                      }}>
                       {image}
