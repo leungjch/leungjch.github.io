@@ -35,7 +35,6 @@ const Image = props => (
       return <Img alt={props.alt}  fluid={image.node.childImageSharp.fluid} 
       style={{ margin: '0rem', maxHeight: props.maxHeight}}
             imgStyle={props.imgStyle}
-            // className="zoom"
       />;
     }}
   />

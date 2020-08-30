@@ -669,7 +669,7 @@ pre tt:after {
 
 }
 .zoom:hover {
-  transform: scale(2.5); 
+  transform: scale(2); 
   z-index: 1;
 
 }
