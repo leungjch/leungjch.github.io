@@ -59,6 +59,7 @@ export default function Home({ data }) {
               {
                 image = <Image filename={data.img} maxHeight={"33vh"}
                 imgStyle={{ objectFit: 'scale-down', objectPosition:"right"}}
+                
                   />
               }
               if (data.linkdemo.length > 0)

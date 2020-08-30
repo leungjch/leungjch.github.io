@@ -666,14 +666,13 @@ pre tt:after {
   padding: 0px;
   background-color: transparent;
   transition: transform .2s; /* Animation */
-  /* width: 200px; */
-  /* height: 200px; */
   margin: 0 auto;
   /* z-index: -1; */
-  position: relative;
   overflow: hidden;
 
 }
 .zoom:hover {
   transform: scale(2.5); 
+  z-index: 1;
+
 }
