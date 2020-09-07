@@ -1,6 +1,11 @@
 ---
 - projects:
-
+    - name: Universe Maker | Android App
+      description: A 2D universe simulation app which numerically solves a n-body system with Euler integration of gravitational forces. Features asteroids, planets, stars, black holes, white holes, AI satellites, and a player-controllable spaceship.
+      keywords: java, android-studio, kotlin
+      img: "images/projects/universe_maker_promo_crop_notext.png"
+      linkrepo: "https://github.com/leungjch/universe-maker-app"
+      linkdemo: ""
     - name: Cellular Automata Explorer
       description: A full-fledged cellular automata simulation built with React and styled with Bootstrap, complete with 28 rule variants, various customizable parameters, a time machine, 3D rendering using three.js with the option to download model as .obj, and live graphing of cell population with d3.js. Completed as part of the Harvard CS50X final project.
       keywords: react, bootstrap, three.js, d3.js, webapp, p5.js
@@ -8,7 +13,7 @@
       linkrepo: "https://github.com/leungjch/cellular-automata-webapp"
       linkdemo: "https://justinleung.me/cellular-automata-webapp/"
 
-    - name: "Emoji Ninja: P2P AI-Powered Fitness Webgame"
+    - name: "Emoji Ninja | P2P AI-Powered Fitness Webgame"
       description: "A peer-to-peer kinect-like fitness game that requires only your webcam. Destroy and avoid the enemies, and move quickly within 60 seconds to win against your friends, while getting a workout! Frontend created using React app and Material-UI for styling. Websocket server run through Node.js (Express). Smooth video calling between two peers is achieved through simple-peer, a WebRTC Javascript library. Project deployed on Heroku. The game is built using p5.js, and I implemented a quadtree to improve collision detection time complexity to O(nlogn) from O(n²)."
       keywords: javascript, node.js, react, express, p5.js, simple-peer, posenet
       img: "webm/emojiNinja_crop_60fps.webm"
