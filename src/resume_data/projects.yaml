@@ -1,11 +1,11 @@
 ---
 - projects:
     - name: Universe Maker | Android App
-      description: A 2D universe simulation app which numerically solves a n-body system with Euler integration of gravitational forces. Features asteroids, planets, stars, black holes, white holes, AI satellites, and a player-controllable spaceship.
+      description: A 2D universe simulation app which numerically solves a n-body system with Euler integration of gravitational forces. Features asteroids, planets, stars, black holes, white holes, AI satellites, and a player-controllable spaceship. Published on the Google Play Store.
       keywords: java, android-studio, kotlin
       img: "images/projects/universe_maker_promo_crop_notext.png"
       linkrepo: "https://github.com/leungjch/universe-maker-app"
-      linkdemo: ""
+      linkdemo: "https://play.google.com/store/apps/details?id=com.leungjch.universemaker"
     - name: Cellular Automata Explorer
       description: A full-fledged cellular automata simulation built with React and styled with Bootstrap, complete with 28 rule variants, various customizable parameters, a time machine, 3D rendering using three.js with the option to download model as .obj, and live graphing of cell population with d3.js. Completed as part of the Harvard CS50X final project.
       keywords: react, bootstrap, three.js, d3.js, webapp, p5.js
