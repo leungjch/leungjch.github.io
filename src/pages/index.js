@@ -44,7 +44,7 @@ export default function Home({ data }) {
 
         <div id="projects">
           <h2>Projects</h2> 
-          <p> Over the years, I've worked on a variety of projects in my spare time. Check out <a href="https://github.com/leungjch">my Github</a> to see more. </p>
+          <p> I'm a maker at heart. Over the years, I've worked on a variety of projects in my spare time. Check out <a href="https://github.com/leungjch">my Github</a> to see more. </p>
           <ul style={{margin:"1%"}}>
             {projects.map((data, index) => {
               var image;
