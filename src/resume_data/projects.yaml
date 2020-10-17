@@ -27,6 +27,12 @@
       linkrepo: "https://github.com/leungjch/WallpaperGenerator_App"
       linkdemo: "https://play.google.com/store/apps/details?id=com.pixelpaper.pixelpaper.wallpapergenerator"
 
+    - name: Visoeis - Integer Sequence Visualization Dashboard
+      description: A React / d3.js webapp for browsing integer sequences on the Online Encyclopedia of Integer Sequences. 
+      keywords: react, javascript, d3.js, math 
+      img: ""
+      linkrepo: "https://github.com/leungjch/visoeis"
+      linkdemo: "https://justinleung.me/visoeis/"
     - name: Druglike Molecule Generation with Variational Autoencoders 
       description: "A variational autoencoder trained to generate unique druglike organic molecules using Tensorflow. I used a training set of 100K molecules, convnets for the encoder and GRUs for the decoder. I used RDKit to plot and verify generated molecules and used QED and SAS to quantify the druglikeness of a molecule."
       keywords: python, tensorflow, keras, rdkit, deep-learning, chemistry
