@@ -21,7 +21,7 @@
       linkdemo: "https://posenet-game-p2p-react.herokuapp.com/"
 
     - name: Visoeis - Integer Sequence Visualization Dashboard
-      description: A React / d3.js webapp that visualizes 330,000+ integer sequences, scraping data from oeis.org. 
+      description: A React / d3.js webapp that visualizes 330,000+ integer sequences, scraping data from oeis.org. Contains interactive option to view in linear/logarithmic scale, search specific sequences in OEIS, view a curated list of interesting sequences, and browse random sequences.
       keywords: react, javascript, d3.js, math 
       img: "images/projects/visoeis.png"
       linkrepo: "https://github.com/leungjch/visoeis"
