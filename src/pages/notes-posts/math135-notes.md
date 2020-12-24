@@ -2,7 +2,7 @@
 title: "MATH 135 Notes"
 date: "2020-09-08"
 type: "note"
-tags: "math135", "proofs"
+tags: "math135, proofs"
 ---
 
 

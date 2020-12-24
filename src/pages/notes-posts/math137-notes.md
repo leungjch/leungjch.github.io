@@ -2,7 +2,7 @@
 title: "MATH 137 Notes"
 date: "2020-09-09"
 type: "note"
-tags: "math137", "calculus"
+tags: "math137, calculus"
 ---
 
 # Week 1: Absolute Value and the Triangle Inequality (Tues 8 Sep 2020)
