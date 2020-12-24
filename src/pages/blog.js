@@ -11,6 +11,7 @@ export default function Blog({data})
         <Layout title="blog">
         <SEO title="Blog"/>
 
+
         {/* <h1 css={css`display: inline-block;border-bottom: 1px solid;`}>
         Blog
         </h1> */}

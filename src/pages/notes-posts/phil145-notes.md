@@ -1,5 +1,5 @@
 ---
-title: "PHIL145 notes"
+title: "PHIL 145 Notes"
 date: "2020-09-12"
 type: "note"
 tags: "philosophy, critical thinking, logic"

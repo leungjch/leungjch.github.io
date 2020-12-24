@@ -1,9 +1,10 @@
 ---
-title: "CS145 Course Notes"
+title: "CS 145 Notes"
 date: "2020-09-07"
 type: "note"
 tags: "cs145, racket, functional-programming"
 ---
+
 # Lec 1 Mon 07 Sep 2020
 # General info
 CS145 is the advanced introductory CS course.
@@ -302,9 +303,9 @@ Notice the vast improvement in steps and constant size when tail-recursive `sumt
 ```
 ## Analysis of the crunch function
 **Partial solution for 0, powers of 10**
-|n|val| |
+|n|val|zzz|
 |-|-|-|
-|$n \in \{0,1\}$|1| |
+|$n \in \{0,1\}$|1|zzz|
 |$n=10^k$|$1+crunch(\frac{n}{10})=k$|(integer $k \geq 1$)|
 
 **General solution for rational $n$**
@@ -1160,8 +1161,6 @@ use-fib.rkt
 (x 'wilma) ; evaluates e
 (define (xx) e) ; PROMISE
 (xx) ; CALL 
-
-
 (define xxx (lambda() e)))
 (xxx)
 
@@ -1191,10 +1190,13 @@ use-fib.rkt
 ; evaluates everything
 (cond
   [true (display 'hello) (display 42) 33])
+
 ```
 
 
 ## Lazy racket
+
+
 ```scheme
 #lang ; must use for marmoset tests
 
@@ -1209,7 +1211,6 @@ use-fib.rkt
 ; substitutes in (add1 10) as x instead of computing it first
 (define (triple x)(+ x x x))
 (triple (add1 10))
-
 ```
 
 
@@ -1296,21 +1297,21 @@ $$e \quad [x \leftarrow e_1]$$
 
 ## Using alpha equivalence
 For the alpha equivalence:
-$$\lambda x . e_1 \equiv_\alpha \lambda y . e_2$$
+$\lambda x . e_1 \equiv_\alpha \lambda y . e_2$
 If 
-$$e_1[x \leftarrow y] = e_2 \\
-\textbf{and } y \not\in FV(e_1)$$
+$e_1[x \leftarrow y] = e_2
+, \quad y \not\in FV(e_1)$
 Then
-$$\lambda x . x w \equiv_\alpha \lambda y . y w \\
+$\lambda x . x w \equiv_\alpha \lambda y . y w \\
 \lambda x . x w \not\equiv_\alpha \lambda w . w w
-$$
+$
 
 ## Beta reduction
 Define **redex** = (reducible expression)
-$$
+$
 (\lambda x . e_1)e_2 \\
 \Rightarrow_\beta e_1[x \leftarrow e_2] 
-$$
+$
 Provided that the substitution $[x \leftarrow e_2]$ is defined. 
 
 # Lecture 25 Part 2
@@ -1338,10 +1339,16 @@ $$
 Second one doesn't work because $w$ is bound. 
 
 ## Beta reduction
-Define redex (reducible expression)
-$$(\lambda x_1 e_1)e_2 \\
-\Rightarrow \beta \qquad e_1[x \leftarrow e_2]$$
-Provided that $e_1[x \leftarrow e_2]$ is defined. And $x \not\in FV(e_2)$
+Define redex (reducible expression) to be:
+
+$(\lambda x_1 e_1)e_2 \\
+\Rightarrow \beta \qquad e_1[x \leftarrow e_2]$
+
+Provided that
+$e_1[x \leftarrow e_2]$ 
+is defined. And 
+
+$x \not\in FV(e_2)$
 
 Beta reduction doesn't work all the time. Instead, we can use: 
 

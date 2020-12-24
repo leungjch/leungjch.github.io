@@ -423,7 +423,8 @@ Brackets specify order of operations. For example, to determine $\neg (A \wedge 
 
 > Definition [De Morgan's Laws]: For statement variables $A$ and $B$, we have:
 >
-> $\neg (A \wedge B) \equiv (\neg A) \vee (\neg B)\\$
+> $\neg (A \wedge B) \equiv (\neg A) \vee (\neg B)$
+> 
 > $\neg (A \vee B) \equiv (\neg A) \wedge (\neg B)$
 
 

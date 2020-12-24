@@ -10,6 +10,10 @@ export default function Notes({data})
     return (
         <Layout title="notes">
         <SEO title="Notes" />
+
+        <p>This is a collection of notes on courses that I've taken in the past as a CS student at University of Waterloo, as well as other stuff that I've been learning about. They are by no means comprehensive or well-formatted. </p> 
+
+
         {/* <h1 css={css`display: inline-block;border-bottom: 1px solid;`}>
         Notes
         </h1> */}
