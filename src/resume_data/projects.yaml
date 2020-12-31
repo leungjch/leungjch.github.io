@@ -1,5 +1,13 @@
 ---
 - projects:
+
+    - name: Paper Trader | Interactive Portfolio Simulator
+      description:  A stock simulator made with PERN stack (PostgreSQL, Express, React, Node) + data visualizations with D3.js, with site deployed on Heroku. Trades and transactions are handled through REST APIs to the Node server, which send SQL queries to the Postgres DB. I also run a Python child process to fetch live stock data from Yahoo Finance, which is processed using Pandas.
+      keywords: fullstack, webdev, node.js, react.js, d3.js, pandas, sql, rest-apis 
+      img: "images/projects/paper_trader.png"
+      linkrepo: "https://github.com/leungjch/paper-trader-fullstack"
+      linkdemo: "https://leungjch-paper-trader.herokuapp.com"
+
     - name: Universe Maker | Android App
       description: A 2D universe simulation app which numerically solves a n-body system with Euler integration of gravitational forces. Features asteroids, planets, stars, black holes, white holes, AI satellites, and a player-controllable spaceship. Published on the Google Play Store.
       keywords: java, android-studio, kotlin

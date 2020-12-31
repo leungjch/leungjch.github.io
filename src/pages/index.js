@@ -21,7 +21,7 @@ export default function Home({ data }) {
     <Layout title="home">
       <SEO title="Home" />
 
-      <div style={{marginRight:"20%"}}>
+      <div style={{marginRight:"10%"}}>
       {/* <h2> {basicInfo.email} </h2> */}
 
       <div dangerouslySetInnerHTML={{ __html:basicInfo.summary}} />
