@@ -29,7 +29,7 @@
       linkdemo: "https://posenet-game-p2p-react.herokuapp.com/"
 
 
-    - name: Turtl3D - Custom Logo Language Interpreter
+    - name: Turtl3D - Logo Programming Language Interpreter
       description: "An experimental C# lexer+parser+eval interpreter for a modified Logo programming language extended to 3D, with graphics with Unity 3D. The interpreter is comprised of three parts. The lexer takes in the raw text and generates tokens. These tokens are processed by a parser, which produces an abstract syntax tree (AST). The evaluator traverses this tree and executes each command to the turtle. Currently, the language supports looping, primitive commands (up, down, left, right, forward, backward), and (possibly recursive) functions."
       keywords: c#, unity3D, interpreter, programming-languages
       img: "images/projects/turtl3d-screenshot.png"
