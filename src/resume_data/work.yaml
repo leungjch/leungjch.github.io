@@ -9,4 +9,4 @@
       duration: Jul. — Oct. 2019
       position: Research Intern
 
-      summary: "Used R and Python to preprocess and extract 100+ features from 19.3 million messages to study the Stack Overflow chat platform. Trained logistic regression models on 86K chat rooms, evaluated with established evaluation metrics such as AUC/ROC, AIC, Wald statistics. Paper under internal review."
+      summary: "Used R and Python to preprocess and extract 100+ features from 19.3 million messages to study the Stack Overflow chat platform. Trained logistic regression models on 86K chat rooms, evaluated with established evaluation metrics such as AUC/ROC, AIC, Wald statistics."

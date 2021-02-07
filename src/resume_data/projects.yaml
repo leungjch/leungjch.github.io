@@ -21,6 +21,14 @@
       linkrepo: "https://github.com/leungjch/cellular-automata-webapp"
       linkdemo: "https://justinleung.me/cellular-automata-webapp/"
 
+    - name: Turtl3D - Logo Programming Language Interpreter
+      description: "An experimental C# lexer+parser+eval interpreter for a modified Logo programming language extended to 3D, with graphics with Unity 3D. The interpreter is comprised of three parts. The lexer takes in the raw text and generates tokens. These tokens are processed by a parser, which produces an abstract syntax tree (AST). The evaluator traverses this tree and executes each command to the turtle. Currently, the language supports looping, primitive commands (up, down, left, right, forward, backward), and (possibly recursive) functions."
+      keywords: c#, unity3D, interpreter, programming-languages
+      img: "images/projects/turtl3d-screenshot.png"
+      linkrepo: "https://github.com/leungjch/turtl3d-interpreter"
+      linkdemo: ""
+
+
     - name: "Emoji Ninja | P2P AI-Powered Fitness Webgame"
       description: "A peer-to-peer kinect-like fitness game that requires only your webcam. Destroy and avoid the enemies, and move quickly within 60 seconds to win against your friends, while getting a workout! Frontend created using React app and Material-UI for styling. Websocket server run through Node.js (Express). Smooth video calling between two peers is achieved through simple-peer, a WebRTC Javascript library. Project deployed on Heroku. The game is built using p5.js, and I implemented a quadtree to improve collision detection time complexity to O(nlogn) from O(n²)."
       keywords: javascript, node.js, react, express, p5.js, simple-peer, posenet
@@ -29,12 +37,13 @@
       linkdemo: "https://posenet-game-p2p-react.herokuapp.com/"
 
 
-    - name: Turtl3D - Logo Programming Language Interpreter
-      description: "An experimental C# lexer+parser+eval interpreter for a modified Logo programming language extended to 3D, with graphics with Unity 3D. The interpreter is comprised of three parts. The lexer takes in the raw text and generates tokens. These tokens are processed by a parser, which produces an abstract syntax tree (AST). The evaluator traverses this tree and executes each command to the turtle. Currently, the language supports looping, primitive commands (up, down, left, right, forward, backward), and (possibly recursive) functions."
-      keywords: c#, unity3D, interpreter, programming-languages
-      img: "images/projects/turtl3d-screenshot.png"
-      linkrepo: "https://github.com/leungjch/turtl3d-interpreter"
-      linkdemo: ""
+
+    - name: "When Vaccine? | MERN stack webapp"
+      description: "Predict when you'll receive the COVID-19 vaccine in Ontario using a simple questionnaire and crowdsourced data. Created with a team of three other uWaterloo students for Hack the North 2021. Built with MERN (MongoDB, Express, React, Node.js) stack, with data visualizations using Chart.js."
+      keywords: mongodb, express, react, node.js, chart.js, javascript
+      img: "images/projects/when_vaccine.png"
+      linkrepo: "https://github.com/leungjch/when-vaccine"
+      linkdemo: "https://when-vaccine.herokuapp.com"
 
 
     - name: Visoeis - Integer Sequence Visualization Dashboard
