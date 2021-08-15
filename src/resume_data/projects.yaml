@@ -36,8 +36,6 @@
       linkrepo: "https://github.com/leungjch/posenet-game-peer2peer"
       linkdemo: "https://posenet-game-p2p-react.herokuapp.com/"
 
-
-
     - name: "When Vaccine? | MERN stack webapp"
       description: "Predict when you'll receive the COVID-19 vaccine in Ontario using a simple questionnaire and crowdsourced data. Created with a team of three other uWaterloo students for Hack the North 2021. Built with MERN (MongoDB, Express, React, Node.js) stack, with data visualizations using Chart.js."
       keywords: mongodb, express, react, node.js, chart.js, javascript
