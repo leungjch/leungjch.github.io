@@ -5,6 +5,7 @@ import { css } from "@emotion/core"
 import { rhythm } from "../utils/typography"
 import SEO from "../components/seo"
 import Image from "../components/image"
+import ReactMarkdown from "react-markdown"
 
 export default function Work({ data }) {
   const basicInfo = data.basicInfoYaml.basic_info
@@ -18,7 +19,6 @@ export default function Work({ data }) {
 
       <div style={{ marginRight: "10%" }}>
         {/* <h2> {basicInfo.email} </h2> */}
-
         <div id="work">
           <ul style={{ margin: "1%" }}>
             {work.map((data, index) => {
@@ -30,15 +30,15 @@ export default function Work({ data }) {
                       flexDirection: "row",
                       verticalAlign: "middle",
                       alignItems: "middle",
-                      marginBottom: "3%",
+                      marginBottom: "0%",
+                      marginTop: "2%",
                     }}
                   >
                     <div
                       style={{
                         flexGrow: 1,
                         width: "10%",
-                        marginRight: "2%",
-                        marginLeft: "2%",
+                        marginRight: "3%",
                       }}
                     >
                       <Image
@@ -49,25 +49,30 @@ export default function Work({ data }) {
                           objectPosition: "left",
                           borderWidth: "5px",
                           borderColor: "black",
+                          borderRadius: "10%",
                         }}
                       />
                     </div>
 
                     <div style={{ width: "90%" }}>
-                      <div style={{ marginBottom: "5%" }}>
-                        <h3>{data.place}</h3>
-                        <div style={{ float: "right" }}>
-                          <h4>{data.duration}</h4>
+                      <div style={{ marginBottom: "2%" }}>
+                        <div>
+                          <h3>{data.place}</h3>
                         </div>
                         <div>
-                          <h4>{data.position}</h4>
-                        </div>
-                        <div style={{ float: "right" }}>
-                          <h4>{data.location}</h4>
+                          <div style={{ float: "right" }}>
+                            <h4>{data.duration}</h4>
+                          </div>
+                          <div>
+                            <h4>{data.position}</h4>
+                          </div>
+                          <div style={{ float: "right" }}>
+                            <h4>{data.location}</h4>
+                          </div>
                         </div>
                       </div>
-                      <div style={{ margin: "3%", marginTop: "1%" }}>
-                        <p>{data.summary}</p>
+                      <div style={{ margin: "1%", marginTop: "1%" }}>
+                        <ReactMarkdown>{data.summary}</ReactMarkdown>
                       </div>
                     </div>
                   </div>
