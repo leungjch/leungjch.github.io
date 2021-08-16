@@ -39,7 +39,14 @@ export default function Layout({ title, children }) {
       }}
     >
       <div style={{ padding: "0.2rem" }}>
-        <ul style={{ listStyle: `none`, padding: "0.1rem" }}>
+        <ul
+          style={{
+            listStyle: `none`,
+            padding: "0.1rem",
+            textDecoration: "none",
+            textDecorationColor: "transparent",
+          }}
+        >
           <ListLink to="/"></ListLink>
           <ListLink to="/">
             <h3>Home</h3>
@@ -48,9 +55,13 @@ export default function Layout({ title, children }) {
           <ListLink to="/#projects">
             <h3>Projects</h3>
           </ListLink>
+          <ListLink to="/work">
+            <h3>Work</h3>
+          </ListLink>
           <ListLink to="/resume">
             <h3>Resume</h3>
           </ListLink>
+
           {/* <ListLink to="/blog/">
             <h3>Blog</h3>
           </ListLink>
@@ -78,7 +89,7 @@ export default function Layout({ title, children }) {
             <span>
               {" "}
               <code style={{ color: "#6398ac", fontSize: "0.75em" }}>
-                //{title}
+                ~/{title}
               </code>
             </span>
           </h1>

@@ -24,22 +24,6 @@ export default function Home({ data }) {
         {/* <h2> {basicInfo.email} </h2> */}
 
         <div dangerouslySetInnerHTML={{ __html: basicInfo.summary }} />
-        {/* <div id="work">
-          <h2> Work</h2>
-          <ul style={{margin:"1%"}}>
-            {work.map((data, index) => {
-              return <li key={`work_${index}`} style={{listStyleType:"none"}}>
-                <h3>{data.place}</h3>
-                <div class="container" style={{flexDirection:"column", justifyContent:"space-between"}}>
-                  <div class="item" style={{float:"right"}}>{data.duration}</div>
-                  <div class="item">{data.position}</div>
-                </div>
-
-                <p style={{margin:"2%"}}>{data.summary}</p>
-              </li>
-            })}
-          </ul>
-        </div> */}
 
         <div id="projects">
           <h2>Projects</h2>
