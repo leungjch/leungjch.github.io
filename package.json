@@ -22,7 +22,6 @@
     "gatsby-transformer-sharp": "^2.5.7",
     "gatsby-transformer-yaml": "^2.4.10",
     "katex": "^0.12.0",
-    "pdfjs-dist": "^2.9.359",
     "prismjs": "^1.24.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
