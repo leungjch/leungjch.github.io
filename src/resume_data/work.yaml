@@ -1,12 +1,41 @@
 ---
 - work:
-    - place: Software Analysis and Intelligence Lab (Queen's University)
+    - place: Dropbase (YC W20)
+      location: San Francisco, CA (Remote)
+      duration: May — Aug. 2020
+      position: Software Engineering Intern
+      img: "images/work/dropbase_logo.png"
+      summary: "
+        - Flask, PostgreSQL
+
+        - Deployed and managed cloud instances on AWS EC2 / ECS
+    
+        - Wrote unit and integration tests
+      "
+
+    - place: Software Analysis and Intelligence Lab
+      location: Kingston, ON
       duration: Apr. — Sept. 2020
-      position: Research Intern
-      summary: "Led project on data mining of Medium. Built a robust web crawler to mine a network of 6+ million articles totalling 109GB in size. Applied machine learning models (logistic regression, support vector machines) using Python (pandas and scikit-learn) to study 6 million Software Engineering articles. Implemented multiprocessing techniques to increase feature extraction performance by 8-fold. Wrote SQL queries on Google BigQuery to assess Medium's usage on Stack Overflow."
+      position: Software Engineering Research Intern
+      img: "images/work/queens_logo.png"
+      summary: "
+      - Built a robust web crawler to mine a network of 6+ million text articles totalling 109GB in size.
+      
+      - Applied machine learning models (logistic regression, support vector machines) using Python (pandas and scikit-learn) to study 6 million Software Engineering articles. 
+      
+      - Implemented multiprocessing techniques to increase feature extraction performance by 8-fold. 
+      
+      - Wrote SQL queries on Google BigQuery to assess Medium.com's popularity on Stack Overflow."
 
-    - place: Software Analysis and Intelligence Lab (Queen's University)
+    - place: Software Analysis and Intelligence Lab
+      location: Kingston, ON
       duration: Jul. — Oct. 2019
-      position: Research Intern
-
-      summary: "Used R and Python to preprocess and extract 100+ features from 19.3 million messages to study the Stack Overflow chat platform. Trained logistic regression models on 86K chat rooms, evaluated with established evaluation metrics such as AUC/ROC, AIC, Wald statistics."
+      position: Software Engineering Research Intern
+      img: "images/work/queens_logo.png"
+      summary: "
+      
+      - Used R and Python to preprocess and extract 100+ features from 19.3 million messages to study the Stack Overflow chat platform. 
+      
+      - Trained logistic regression models on 86K chat rooms
+      
+      - Evaluated models with AUC/ROC, AIC, Wald statistics."

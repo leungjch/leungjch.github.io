@@ -1,36 +1,53 @@
 /* html {
     background-color: lavenderblush;
   } */
-  .user {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto 0 auto;
-    width: 50%;
-  }
-  .user:last-child {
-    margin-bottom: 0;
-  }
-  .avatar {
-    flex: 0 0 96px;
-    width: 50%;
-    height: 0;
-    margin: 0;
+.user {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto 0 auto;
+  width: 50%;
+}
+.user:last-child {
+  margin-bottom: 0;
+}
+.avatar {
+  flex: 0 0 96px;
+  width: 50%;
+  height: 0;
+  margin: 0;
+}
+.description {
+  /* flex: 1; */
+  /* margin-left: 18px; */
+  /* padding: 12px; */
+  width: 50%;
+}
+.username {
+  margin: 0 0 0 0;
+  padding: 0;
+}
+.excerpt {
+  margin: 0;
+}
 
-  }
-  .description {
-    /* flex: 1; */
-    /* margin-left: 18px; */
-    /* padding: 12px; */
-    width: 50%;
-  }
-  .username {
-    margin: 0 0 0 0;
-    padding: 0;
-  }
-  .excerpt {
-    margin: 0;
-  }
+:not(pre) > code[class*="language-"] {
+  white-space: break-spaces;
+}
 
-  :not(pre) > code[class*='language-'] {
-    white-space: break-spaces;
-  }
+@font-face {
+  font-family: "Inconsolata";
+  src: url("../../static/fonts/Inconsolata_SemiCondensed-Medium.ttf");
+}
+@font-face {
+  font-family: "Inconsolata-Medium";
+  src: url("../../static/fonts/Inconsolata_SemiCondensed-Medium.ttf");
+}
+
+@font-face {
+  font-family: "UbuntuMono";
+  src: url("../../static/fonts/UbuntuMono-Regular.ttf");
+}
+@font-face {
+  font-family: "UbuntuMono-Medium";
+  src: url("../../static/fonts/UbuntuMono-Bold.ttf");
+}
