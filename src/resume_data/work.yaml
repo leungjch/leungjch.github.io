@@ -8,9 +8,23 @@
       summary: "
         - Flask, PostgreSQL
 
-        - Deployed and managed cloud instances on AWS EC2 / ECS
+        - Managed and deployed cloud instances on AWS EC2 / ECS
     
-        - Wrote unit and integration tests
+        - Ensured 90%+ test coverage through unit and integration tests
+      "
+
+
+    - place: Waterloo Data Visualization Group (WatVis)
+      location: Waterloo, ON
+      duration: Jan — Aug. 2020
+      position: Undergraduate Research Assistant
+      img: "images/work/watvis_logo.png"
+      summary: "
+        - Generated Doc2Vec embeddings for RNN and classification models
+
+        - Deployed Flask server to host CodeBERT inference and TF-IDF keyword extraction functionalities
+
+        - Trained LDA models for topic modelling of data science notebooks 
       "
 
     - place: Software Analysis and Intelligence Lab
