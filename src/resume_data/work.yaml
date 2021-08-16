@@ -2,7 +2,7 @@
 - work:
     - place: Dropbase (YC W20)
       location: San Francisco, CA (Remote)
-      duration: May — Aug. 2020
+      duration: May — Aug. 2021
       position: Software Engineering Intern
       img: "images/work/dropbase_logo.png"
       summary: "
@@ -13,18 +13,33 @@
         - Ensured 90%+ test coverage through unit and integration tests
       "
 
+    - place: Waterloo Data Visualization Group (WatVis)
+      location: Waterloo, ON
+      duration: Jul. 2021 — Current
+      position: Undergraduate Research Assistant (ML/Backend)
+      img: "images/work/watvis_logo.png"
+      summary: "
+        - Hosted GauGAN and Neural Style Transfer inference models on Flask server with GCP instance
+
+        - Designed Go backend to allow real-time collaborative drawing
+
+        - Built frontend with React Native web/mobile app
+
+        - App adopted by art therapists + general users
+      "
+
 
     - place: Waterloo Data Visualization Group (WatVis)
       location: Waterloo, ON
-      duration: Jan — Aug. 2020
-      position: Undergraduate Research Assistant
+      duration: Jan — Aug. 2021
+      position: Undergraduate Research Assistant (ML/Backend)
       img: "images/work/watvis_logo.png"
       summary: "
         - Generated Doc2Vec embeddings for RNN and classification models
 
-        - Deployed Flask server to host CodeBERT inference and TF-IDF keyword extraction functionalities
+        - Deployed Flask backend to host CodeBERT model inference and TF-IDF keyword extraction functionalities
 
-        - Trained LDA models for topic modelling of data science notebooks 
+        - Trained LDA models for topic modelling of 86k+ data science notebooks 
       "
 
     - place: Software Analysis and Intelligence Lab
