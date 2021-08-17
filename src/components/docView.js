@@ -6,7 +6,7 @@ export default function DocView(props) {
   const iframeRef = useRef(null)
 
   useEffect(() => {
-    const intervalId = setInterval(updateIframeSrc, 500)
+    const intervalId = setInterval(updateIframeSrc, 750)
     setIframeTimeoutId(intervalId)
   }, [])
 
