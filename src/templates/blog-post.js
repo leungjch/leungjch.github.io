@@ -7,13 +7,13 @@ import Layout from "../components/layout"
 require(`katex/dist/katex.min.css`)
 
 export default function BlogPost({ data }) {
-    const post = data.markdownRemark
-    return (
-    <Layout title = "blog">
-        <div>
-            <h1> {post.frontmatter.title} </h1>
-            <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        </div>
+  const post = data.markdownRemark
+  return (
+    <Layout title="blog">
+      <div>
+        <h1> {post.frontmatter.title} </h1>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      </div>
     </Layout>
   )
 }
