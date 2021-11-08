@@ -6,11 +6,11 @@
       position: Software Engineering Intern
       img: "images/work/dropbase_logo.png"
       summary: "
-        - Flask, PostgreSQL
+        - Developed 22+ REST API endpoints with Flask and SQL CRUD operations with PostgreSQL.
 
         - Managed and deployed cloud instances on AWS EC2 / ECS
     
-        - Ensured 90%+ test coverage through unit and integration tests
+        - Ensured 80%+ test coverage through unit and integration tests
       "
 
     - place: Waterloo Data Visualization Group (WatVis)

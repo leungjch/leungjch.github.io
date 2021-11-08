@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 import "./layout.css"
 const ListLink = props => (
   <li style={{ paddingBottom: "2px", marginBottom: "5%" }}>
-    <Link to={props.to} activeClassName={`active`} style={{ color: "#373737" }}>
+    <Link className="myLink" style={{ color: "#10315c" }} to={props.to}>
       {props.children}
     </Link>
   </li>

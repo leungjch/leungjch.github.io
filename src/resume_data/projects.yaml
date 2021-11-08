@@ -1,12 +1,24 @@
 ---
 - projects:
 
-    - name: Paper Trader | Interactive Portfolio Simulator
-      description:  A stock simulator made with PERN stack (PostgreSQL, Express, React, Node) + data visualizations with D3.js, with site deployed on Heroku. Trades and transactions are handled through REST APIs to the Node server, which send SQL queries to the Postgres DB. I also run a Python child process to fetch live stock data from Yahoo Finance, which is processed using Pandas.
-      keywords: fullstack, webdev, node.js, react.js, d3.js, pandas, sql, rest-apis 
-      img: "images/projects/paper_trader.png"
-      linkrepo: "https://github.com/leungjch/paper-trader-fullstack"
-      linkdemo: "https://leungjch-paper-trader.herokuapp.com"
+
+
+    - name: Deep Learning + Art Therapy
+      description: A full-stack application that I built at UWaterloo Data Visualization Group which lets you convert scribbles into photorealistic landscape images using the GauGAN CV model and create art in the style of famous paintings through neural style transfer. The app supports collaborative drawing through a server I developed in Go, and hosted ML models on a Flask server. The entire backend is hosted on GCP and deployed using Docker.
+      keywords: ml, gaugan, style-transfer, art-therapy, react-native
+      img: "images/projects/hai-art.png"
+      linkrepo: "https://github.com/leungjch/deep-art-therapy"
+      linkdemo: "http://hai-art.surge.sh"
+
+
+    - name: StudyBuddy | Hack the North 2021 Winner
+      description: A Chrome extension for AI-assisted live notetaking on videos and live meetings - copy text directly on YouTube videos and automatically summarize presentation slides during live meetings! We used Google Cloud Vision API to perform OCR from video as well as NLP models (BART, spaCy) for automatic summarization named entity recognition of the text. We deployed the backend with Flask.
+      keywords: hack-the-north, gcp, nlp, flask
+      img: "webm/studybuddy.webm"
+      linkrepo: "https://github.com/leungjch/StudyBuddy"
+      linkdemo: ""
+
+
 
     - name: Universe Maker | Android App
       description: A 2D universe simulation app which numerically solves a n-body system with Euler integration of gravitational forces. Features asteroids, planets, stars, black holes, white holes, AI satellites, and a player-controllable spaceship. Published on the Google Play Store.
@@ -14,6 +26,14 @@
       img: "images/projects/universe_maker_promo_crop_notext.png"
       linkrepo: "https://github.com/leungjch/universe-maker-app"
       linkdemo: "https://play.google.com/store/apps/details?id=com.leungjch.universemaker"
+
+    - name: Paper Trader | Interactive Portfolio Simulator
+      description:  A stock simulator made with PERN stack (PostgreSQL, Express, React, Node) + data visualizations with D3.js, with site deployed on Heroku. Trades and transactions are handled through REST APIs to the Node server, which send SQL queries to the Postgres DB. I also run a Python child process to fetch live stock data from Yahoo Finance, which is processed using Pandas.
+      keywords: fullstack, webdev, node.js, react.js, d3.js, pandas, sql, rest-apis 
+      img: "images/projects/paper_trader.png"
+      linkrepo: "https://github.com/leungjch/paper-trader-fullstack"
+      linkdemo: "https://leungjch-paper-trader.herokuapp.com"
+
     - name: Cellular Automata Explorer
       description: A full-fledged cellular automata simulation built with React and styled with Bootstrap, complete with 28 rule variants, various customizable parameters, a time machine, 3D rendering using three.js with the option to download model as .obj, and live graphing of cell population with d3.js. Completed as part of the Harvard CS50X final project.
       keywords: react, bootstrap, three.js, d3.js, webapp, p5.js
@@ -21,7 +41,7 @@
       linkrepo: "https://github.com/leungjch/cellular-automata-webapp"
       linkdemo: "https://justinleung.me/cellular-automata-webapp/"
 
-    - name: Turtl3D - Logo Programming Language Interpreter
+    - name: Turtl3D | Logo Programming Language Interpreter
       description: "An experimental C# lexer+parser+eval interpreter for a modified Logo programming language extended to 3D, with graphics with Unity 3D. The interpreter is comprised of three parts. The lexer takes in the raw text and generates tokens. These tokens are processed by a parser, which produces an abstract syntax tree (AST). The evaluator traverses this tree and executes each command to the turtle. Currently, the language supports looping, primitive commands (up, down, left, right, forward, backward), and (possibly recursive) functions."
       keywords: c#, unity3D, interpreter, programming-languages
       img: "images/projects/turtl3d-screenshot.png"

@@ -10,8 +10,8 @@ oceanBeachTheme.overrideThemeStyles = () => ({
 const typography = new Typography({
   baseFontSize: "20px",
   baseLineHeight: 1.666,
-  headerFontFamily: ["UbuntuMono-Medium"],
-  bodyFontFamily: ["Inconsolata"],
+  headerFontFamily: ["SourceSansPro"],
+  bodyFontFamily: ["SourceSansPro"],
 })
 export const { scale, rhythm, options } = typography
 export default typography

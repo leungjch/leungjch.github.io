@@ -44,6 +44,11 @@
 }
 
 @font-face {
+  font-family: "SourceSansPro";
+  src: url("../../static/fonts/SourceSansPro-Regular.ttf");
+}
+
+@font-face {
   font-family: "UbuntuMono";
   src: url("../../static/fonts/UbuntuMono-Regular.ttf");
 }
