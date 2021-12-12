@@ -70,7 +70,12 @@ export default function Home({ data }) {
               if (data.linkdemo.length > 0) {
                 demo = <a href={data.linkdemo}>[demo]</a>
               }
-              var repo = <a href={data.linkrepo}>[code]</a>
+
+              var repo;
+              if (data.linkrepo.length > 0)
+              {
+                repo = <a href={data.linkrepo}>[code]</a>
+              }
               return (
                 <li
                   key={`projects_${index}`}

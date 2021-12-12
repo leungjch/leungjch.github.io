@@ -7,7 +7,7 @@
       description: A full-stack application that I built at UWaterloo Data Visualization Group which lets you convert scribbles into photorealistic landscape images using the GauGAN CV model and create art in the style of famous paintings through neural style transfer. The app supports collaborative drawing through a server I developed in Go, and hosted ML models on a Flask server. The entire backend is hosted on GCP and deployed using Docker.
       keywords: ml, gaugan, style-transfer, art-therapy, react-native
       img: "images/projects/hai-art.png"
-      linkrepo: "https://github.com/leungjch/deep-art-therapy"
+      linkrepo: ""
       linkdemo: "http://hai-art.surge.sh"
 
 

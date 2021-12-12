@@ -12,7 +12,7 @@ export default function Resume({ data }) {
       <SEO title="Resume" />
       <DocView
         style={{ width: "300" }}
-        url="https://github.com/leungjch/resume/raw/master/resume-main.pdf"
+        url="https://github.com/leungjch/resume/raw/master/resume-justin-leung.pdf"
       ></DocView>
     </Layout>
   )
