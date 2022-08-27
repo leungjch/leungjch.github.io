@@ -55,12 +55,12 @@ export default function Layout({ title, children }) {
           <ListLink to="/#projects">
             <h3>Projects</h3>
           </ListLink>
-          <ListLink to="/work">
+          {/* <ListLink to="/work">
             <h3>Work</h3>
-          </ListLink>
-          <ListLink to="/resume">
+          </ListLink> */}
+          {/* <ListLink to="/resume">
             <h3>Resume</h3>
-          </ListLink>
+          </ListLink> */}
 
           {/* <ListLink to="/blog/">
             <h3>Blog</h3>
