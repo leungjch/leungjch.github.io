@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{w2l6:function(t,e,b){"use strict";b.r(e);b("q1tI");var n=b("Bl7J"),l=b("vrFN"),a=b("qKvR");e.default=()=>Object(a.b)(n.a,null,Object(a.b)(l.a,{title:"404: Not found"}),Object(a.b)("h1",null,"NOT FOUND"),Object(a.b)("p",null,"You hit an invalid page. ",Object(a.b)("a",{href:"/"}," Go home ")))}}]);
+//# sourceMappingURL=component---src-pages-404-js-c44237d95241d9d23307.js.map
