@@ -119,9 +119,15 @@ samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
-figure {
-  margin: 1em 40px;
+
+figure figcaption {
+    width: 80%;
+    height: 80%;
+    border: 1px dotted blue;
+    text-align: center;
 }
+
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -232,7 +238,7 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 img {
-  max-width: 100%;
+  max-width: 80%;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -240,7 +246,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
 }
 h1 {
   margin-left: 0;
@@ -409,6 +415,8 @@ p {
   margin-bottom: 1.45rem;
 }
 figure {
+  width: 80%;
+  height: 80%;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;

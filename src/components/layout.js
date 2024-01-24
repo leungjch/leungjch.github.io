@@ -62,12 +62,12 @@ export default function Layout({ title, children }) {
             <h3>Resume</h3>
           </ListLink> */}
 
-          {/* <ListLink to="/blog/">
-            <h3>Blog</h3>
+          <ListLink to="/blog/">
+            <h3>Logs</h3>
           </ListLink>
-          <ListLink to="/notes/">
+          {/* <ListLink to="/notes/">
             <h3>Notes</h3>
-          </ListLink> */}
+          </ListLink>  */}
           <ListLink to="https://github.com/leungjch">
             <h3>Github</h3>
           </ListLink>
@@ -88,8 +88,8 @@ export default function Layout({ title, children }) {
             Justin Leung
             <span>
               {" "}
-              <code style={{ color: "#6398ac", fontSize: "0.75em" }}>
-                ~/{title}
+              <code style={{ color: "#6398ac", fontSize: "0.5em" }}>
+                ~/leungjch/{title}
               </code>
             </span>
           </h1>

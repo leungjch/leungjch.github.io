@@ -3,6 +3,7 @@ title: "Universe Maker Privacy Policy"
 date: "2020-09-07"
 type: "blog"
 tags: "privacy-policy"
+url: "universe-maker-privacy-policy"
 ---
 **Privacy Policy**
 

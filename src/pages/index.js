@@ -17,7 +17,7 @@ export default function Home({ data }) {
 
   console.log(basicInfo, work, projects)
   return (
-    <Layout title="home">
+    <Layout title="">
       <SEO title="Home" />
 
       <div style={{ marginRight: "10%" }}>

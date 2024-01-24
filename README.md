@@ -1,6 +1,9 @@
 # justinleung.me | Justin Leung's website
 
 ## Build instructions
+
+Requires node v12. 
+
 At the root directory, run `npm run build` to install dependencies, then run `gatsby develop` to start modifying the site at `localhost:8000` with hot reload capability.
 
 The source code is hosted on the `source` branch, and the compiled build is on the `master` branch, which is then served on Github pages and my custom domain. Therefore, I push all my commits to `source`, not `master` (this is just a note for myself). 

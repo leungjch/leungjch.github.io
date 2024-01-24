@@ -1,14 +1,40 @@
 ---
 - projects:
 
+    - name: "Fudge: OpenGL 3D graph visualizer"
+      description: Fudge is a force directed graph explorer built with C++ OpenGL/WebGL. Given a graph network, it uses n-body simulation to model nodes with a repelling force against each other node, and edges act as springs which keep connecting nodes together. The result is a visually aesthetic 3D layout of a graph.
+      keywords: c++, opengl, webgl, graph, force-directed, webassembly
+      img: "webm/fudge-demo.webm"
+      linkrepo: "https://github.com/leungjch/fudge"
+      linkdemo: "https://justinleung.me/fudge"
 
+    - name: Universe Maker | Android App
+      description: A 2D universe simulation app which numerically solves a n-body system with Euler integration of gravitational forces. Features asteroids, planets, stars, black holes, white holes, AI satellites, and a player-controllable spaceship. Published on the Google Play Store.
+      keywords: java, android-studio, kotlin
+      img: "images/projects/universe_maker_promo_crop_notext.png"
+      linkrepo: "https://github.com/leungjch/universe-maker-app"
+      linkdemo: "https://play.google.com/store/apps/details?id=com.leungjch.universemaker"
 
-    - name: Deep Learning + Art Therapy
-      description: A full-stack application that I built at UWaterloo Data Visualization Group which lets you convert scribbles into photorealistic landscape images using the GauGAN CV model and create art in the style of famous paintings through neural style transfer. The app supports collaborative drawing through a server I developed in Go, and hosted ML models on a Flask server. The entire backend is hosted on GCP and deployed using Docker.
+    - name: "DeepThInk: AI-Powered Art Therapy App"
+      description: A full-stack application that I built at UWaterloo Data Visualization Group which lets you convert scribbles into photorealistic landscape images using the GauGAN CV model and create art in the style of famous paintings through neural style transfer. The app supports collaborative drawing through a server I developed in Go, and hosted ML models on a Flask server. The entire backend is hosted on GCP and deployed using Docker. Co-author of a paper published to International Journal of Human Computer Studies. 
       keywords: ml, gaugan, style-transfer, art-therapy, react-native
       img: "images/projects/hai-art.png"
-      linkrepo: ""
+      linkrepo: "https://github.com/watvis/deepthink"
+      linkdemo: "https://www.sciencedirect.com/science/article/abs/pii/S1071581923001489"
+    
+    - name: "Magnetic Sand - 2D Magnetic Pendulum Visualizer"
+      description: An Android / WASM app that visualizes the chaotic behavior of a pendulum being attracted by the force of magnets. The color of the pixel represents which magnet the pendulum landed on, and the brightness of the color represents how quickly it landed on that magnet from that location (blacker corresponds to more time required).
+      keywords: physics, android, webassembly
+      img: "images/projects/magnetic-sand.png"
+      linkrepo: "https://github.com/leungjch/magnetic-sand-android"
+      linkdemo: "https://play.google.com/store/apps/details?id=com.leungjch.physicsfractals"
+
+    - name: "BME280 sensor driver"
+      description: A Raspberry Pi Linux driver written in C for the Bosch BME280 sensor, which measures temperature, humidity, and pressure. Uses I2C interfacing to communicate with the sensor. The driver is loaded as a Linux kernel module. 
+      img: "images/projects/bme280.png"
+      linkrepo: "https://github.com/leungjch/bme280-driver"
       linkdemo: ""
+      keywords: "c, linux, raspberry-pi, i2c, embedded"
 
 
     - name: StudyBuddy | Hack the North 2021 Winner
@@ -18,28 +44,21 @@
       linkrepo: "https://github.com/leungjch/StudyBuddy"
       linkdemo: ""
 
-
-
-    - name: Universe Maker | Android App
-      description: A 2D universe simulation app which numerically solves a n-body system with Euler integration of gravitational forces. Features asteroids, planets, stars, black holes, white holes, AI satellites, and a player-controllable spaceship. Published on the Google Play Store.
-      keywords: java, android-studio, kotlin
-      img: "images/projects/universe_maker_promo_crop_notext.png"
-      linkrepo: "https://github.com/leungjch/universe-maker-app"
-      linkdemo: "https://play.google.com/store/apps/details?id=com.leungjch.universemaker"
-
-    - name: Paper Trader | Interactive Portfolio Simulator
-      description:  A stock simulator made with PERN stack (PostgreSQL, Express, React, Node) + data visualizations with D3.js, with site deployed on Heroku. Trades and transactions are handled through REST APIs to the Node server, which send SQL queries to the Postgres DB. I also run a Python child process to fetch live stock data from Yahoo Finance, which is processed using Pandas.
-      keywords: fullstack, webdev, node.js, react.js, d3.js, pandas, sql, rest-apis 
-      img: "images/projects/paper_trader.png"
-      linkrepo: "https://github.com/leungjch/paper-trader-fullstack"
-      linkdemo: "https://leungjch-paper-trader.herokuapp.com"
-
     - name: Cellular Automata Explorer
       description: A full-fledged cellular automata simulation built with React and styled with Bootstrap, complete with 28 rule variants, various customizable parameters, a time machine, 3D rendering using three.js with the option to download model as .obj, and live graphing of cell population with d3.js. Completed as part of the Harvard CS50X final project.
       keywords: react, bootstrap, three.js, d3.js, webapp, p5.js
       img: "webm/cellular_holdd.webm"
       linkrepo: "https://github.com/leungjch/cellular-automata-webapp"
       linkdemo: "https://justinleung.me/cellular-automata-webapp/"
+
+
+    - name: Paper Trader | Interactive Portfolio Simulator
+      description:  A stock simulator made with PERN stack (PostgreSQL, Express, React, Node) + data visualizations with D3.js, with site deployed on Heroku. Trades and transactions are handled through REST APIs to the Node server, which send SQL queries to the Postgres DB. I also run a Python child process to fetch live stock data from Yahoo Finance, which is processed using Pandas.
+      keywords: fullstack, webdev, node.js, react.js, d3.js, pandas, sql, rest-apis 
+      img: "images/projects/paper_trader.png"
+      linkrepo: "https://github.com/leungjch/paper-trader-fullstack"
+      linkdemo: ""
+
 
     - name: Turtl3D | Logo Programming Language Interpreter
       description: "An experimental C# lexer+parser+eval interpreter for a modified Logo programming language extended to 3D, with graphics with Unity 3D. The interpreter is comprised of three parts. The lexer takes in the raw text and generates tokens. These tokens are processed by a parser, which produces an abstract syntax tree (AST). The evaluator traverses this tree and executes each command to the turtle. Currently, the language supports looping, primitive commands (up, down, left, right, forward, backward), and (possibly recursive) functions."
@@ -61,7 +80,7 @@
       keywords: mongodb, express, react, node.js, chart.js, javascript
       img: "images/projects/when_vaccine.png"
       linkrepo: "https://github.com/leungjch/when-vaccine"
-      linkdemo: "https://when-vaccine.herokuapp.com"
+      linkdemo: ""
 
 
     - name: Visoeis - Integer Sequence Visualization Dashboard

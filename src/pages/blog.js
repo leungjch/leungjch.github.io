@@ -7,8 +7,8 @@ import SEO from "../components/seo"
 
 export default function Blog({ data }) {
   return (
-    <Layout title="blog">
-      <SEO title="Blog" />
+    <Layout title="logs">
+      <SEO title="Logs" />
 
       {/* <h1 css={css`display: inline-block;border-bottom: 1px solid;`}>
         Blog

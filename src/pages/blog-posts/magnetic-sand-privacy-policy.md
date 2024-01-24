@@ -1,8 +1,9 @@
 ---
-title: "Magnetic Sand"
+title: "Magnetic Sand Privacy Policy"
 date: "2020-08-27"
 type: "blog"
 tags: "privacy-policy"
+url: "magnetic-sand-privacy-policy"
 ---
 **Privacy Policy**
 

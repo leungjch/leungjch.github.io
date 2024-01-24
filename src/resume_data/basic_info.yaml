@@ -8,8 +8,8 @@
       github: leungjch
     url: https://justinleung.me
 
-    summary: <p> Hi! I'm a Computer Science student at UWaterloo. I've previously worked at <a href="https://dropbase.io/">Dropbase</a>, <a href="https://www.jeffjianzhao.com/">Waterloo Data Visualization Group</a> at UWaterloo, and <a href="https://sail.cs.queensu.ca/">Software Analysis and Intelligence Lab</a> at Queen's University. I'm interested in ML engineering and data engineering, and also have experience in general mobile/web development - take a look at the <a href="/work">work</a> and <a href="#projects">projects</a> I've done throughout the years. </p>
+    summary: <p> Hi! I'm a Computer Science student at UWaterloo. I've previously worked at Tesla, SAP, SingleStore, <a href="https://dropbase.io/">Dropbase</a>, <a href="https://www.jeffjianzhao.com/">Waterloo Data Visualization Group</a> at UWaterloo, and <a href="https://sail.cs.queensu.ca/">Software Analysis and Intelligence Lab</a> at Queen's University. I'm interested in building distributed systems and full-stack applications. </p>
     location:
-      city: Ottawa
+      city: Waterloo
       countryCode: CA
       region: ON
