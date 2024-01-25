@@ -4,7 +4,7 @@
     - name: "Fudge: OpenGL 3D graph visualizer"
       description: Fudge is a force directed graph explorer built with C++ OpenGL/WebGL. Given a graph network, it uses n-body simulation to model nodes with a repelling force against each other node, and edges act as springs which keep connecting nodes together. The result is a visually aesthetic 3D layout of a graph.
       keywords: c++, opengl, webgl, graph, force-directed, webassembly
-      img: "webm/fudge-demo.webm"
+      img: "webm/fudge-demo-downscale.webm"
       linkrepo: "https://github.com/leungjch/fudge"
       linkdemo: "https://justinleung.me/fudge"
 
@@ -135,7 +135,7 @@
     - name: DIY VR Styrofoam Headset
       description: "A VR headset built from scratch. Head tracking was done using the MPU-6050 gyroscope and accelerometer sensor (~$30), which is sent to the Arduino Micro and converted into mouse input. Fully compatible with all SteamVR games (I'm playing VRChat in the video). The headset display is my phone, which streams video from my desktop."
       keywords: vr, arduino, c++, hardware, openvr, steamvr
-      img: "webm/vr_mute.webm"
+      img: "webm/vr-downscale.webm"
       linkrepo: "https://github.com/leungjch/arduino-styrofoam-VR"
       linkdemo: ""
 
