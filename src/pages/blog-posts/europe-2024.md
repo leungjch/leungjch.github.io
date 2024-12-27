@@ -9,7 +9,7 @@ url: "europe-2024"
 
 In November 2024, I visited 12 European cities in 28 days. It was a loop around central Europe, done entirely by train.
 
-![](map.png)
+![](https://github.com/leungjch/coredump/blob/main/europe-2024/map.png?raw=true)
 
 - [Paris, France](#paris-france)
   - [Day 1](#day-1)
@@ -65,12 +65,12 @@ In November 2024, I visited 12 European cities in 28 days. It was a loop around 
 
 #### Notre Dame
 
-![](paris/notre-dame.png)
+![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/notre-dame.png?raw=true)
 
 
 #### Seine River
 
-![](paris/seine-river.png)
+![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/seine-river.png?raw=true)
 
 ## Day 2 
 
@@ -78,24 +78,24 @@ In November 2024, I visited 12 European cities in 28 days. It was a loop around 
 
 The Basilica of the Sacred Heart
 
-![](paris/sacre-coeur.png)
+![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/sacre-coeur.png?raw=true)
 
 #### Eiffel Tower
 
-![](paris/eiffel-tower.png)
+![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/eiffel-tower.png?raw=true)
 
 ## Day 3
 
 ####  Arc de Triomphe
 
-![](paris/arc-de-triomphe.png)
+![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/arc-de-triomphe.png?raw=true)
 
 
 #### Musée de l'Orangerie
 
 Water Lilies by Claude Monet
 
-![](paris/water-lillies.png)
+![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/water-lillies.png?raw=true)
 
 
 
@@ -104,16 +104,16 @@ Water Lilies by Claude Monet
 
 We went during the free admission night (first Friday of the month). But we were able to see much of the museum in the 2.5 hours we had.
 
-![](paris/louvre.png)
+![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/louvre.png?raw=true)
 
 
 ###### Mona Lisa
 
-![](paris/mona-lisa.png)
+![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/mona-lisa.png?raw=true)
 
 ###### Venus de Milo
 
-![](paris/venus.png)
+![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/venus.png?raw=true)
 
 # Lauterbrunnen, Switzerland
 
@@ -121,18 +121,18 @@ We went during the free admission night (first Friday of the month). But we were
 
 Took the train from Paris to Interlaken, then another (30 minute) train to Lauterbrunnen, arriving in afternoon. Did the a walk along Lauterbrunnen Valley to Trimmelbach Falls. 
 
-![](lauterbrunnen/train.png)
+![](https://github.com/leungjch/coredump/blob/main/europe-2024/lauterbrunnen/train.png?raw=true)
 
 The train from Interlaken to Lauterbrunnen
 
 Trimmelbach Falls
 
 
-![](lauterbrunnen/tbf-1.png)
+![](https://github.com/leungjch/coredump/blob/main/europe-2024/lauterbrunnen/tbf-1.png?raw=true)
 
 Lauterbrunnen Valley at dusk
 
-![](lauterbrunnen/valley.png)
+![](https://github.com/leungjch/coredump/blob/main/europe-2024/lauterbrunnen/valley.png?raw=true)
 
 ## Day 2
 
