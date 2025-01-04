@@ -165,7 +165,7 @@ Day 3: Took the bus to Stechelberg, then the cable car to Mürren. We then hiked
 
 #### Gimmelwald
 
-![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/lauterbrunnen/gimmelwald.webp?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/lauterbrunnen/gimmelwald-night.webp?raw=true)
 
 Day 4: Explored Interlaken and Lake Brienz.
 
