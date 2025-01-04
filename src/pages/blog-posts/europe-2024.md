@@ -7,15 +7,13 @@ url: "europe-2024"
 ---
 
 
-In November 2024, I visited 12 European cities in 28 days. It was a loop around central Europe, done entirely by train.
+In November 2024, I visited 12 European cities in 28 days. It was a loop around central Europe, done entirely by train. Here are a couple of photos from the trip.
 
-![](https://github.com/leungjch/coredump/blob/main/europe-2024/map.png?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/misc/map.webp?raw=true)
 
 - [Paris, France](#paris-france)
-  - [Day 1](#day-1)
       - [Notre Dame](#notre-dame)
       - [Seine River](#seine-river)
-  - [Day 2](#day-2)
       - [Montmartre](#montmartre)
       - [Eiffel Tower](#eiffel-tower)
   - [Day 3](#day-3)
@@ -25,21 +23,21 @@ In November 2024, I visited 12 European cities in 28 days. It was a loop around 
           - [Mona Lisa](#mona-lisa)
           - [Venus de Milo](#venus-de-milo)
 - [Lauterbrunnen, Switzerland](#lauterbrunnen-switzerland)
-  - [Day 1](#day-1-1)
-  - [Day 2](#day-2-1)
-    - [Wengen](#wengen)
-    - [Eigergletscher](#eigergletscher)
+  - [Day 1](#day-1)
+      - [Trimmelbach Falls](#trimmelbach-falls)
+  - [Day 2](#day-2)
+      - [Wengen](#wengen)
+      - [Eigergletscher](#eigergletscher)
   - [Day 3](#day-3-1)
-    - [Mürren](#mürren)
-    - [Gimmelwald](#gimmelwald)
+      - [Mürren](#mürren)
+      - [Gimmelwald](#gimmelwald)
   - [Day 4](#day-4)
-    - [Interlaken](#interlaken)
-    - [Lake Thun](#lake-thun)
+    - [Lake Brienz](#lake-brienz)
 - [Florence, Italy](#florence-italy)
 - [Rome, Italy](#rome-italy)
 - [Venice, Italy](#venice-italy)
-  - [Day 1](#day-1-2)
-  - [Day 2](#day-2-2)
+  - [Day 1](#day-1-1)
+  - [Day 2](#day-2-1)
     - [Murano](#murano)
     - [Burano](#burano)
 - [Salzburg, Austria](#salzburg-austria)
@@ -59,133 +57,268 @@ In November 2024, I visited 12 European cities in 28 days. It was a loop around 
 # Paris, France
 
 
-## Day 1
-
-
-
 #### Notre Dame
 
-![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/notre-dame.png?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/paris/notre-dame.webp?raw=true)
 
 
 #### Seine River
 
-![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/seine-river.png?raw=true)
-
-## Day 2 
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/paris/seine-river.webp?raw=true)
 
 #### Montmartre
 
 The Basilica of the Sacred Heart
 
-![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/sacre-coeur.png?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/paris/sacre-coeur.webp?raw=true)
 
 #### Eiffel Tower
 
-![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/eiffel-tower.png?raw=true)
-
-## Day 3
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/paris/eiffel-tower.webp?raw=true)
 
 ####  Arc de Triomphe
 
-![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/arc-de-triomphe.png?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/paris/arc-de-triomphe.webp?raw=true)
 
 
 #### Musée de l'Orangerie
 
 Water Lilies by Claude Monet
 
-![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/water-lillies.png?raw=true)
-
-
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/paris/water-lillies.webp?raw=true)
 
 
 #### The Louvre
 
 We went during the free admission night (first Friday of the month). But we were able to see much of the museum in the 2.5 hours we had.
 
-![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/louvre.png?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/paris/louvre.webp?raw=true)
 
 
 ###### Mona Lisa
 
-![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/mona-lisa.png?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/paris/mona-lisa.webp?raw=true)
 
 ###### Venus de Milo
 
-![](https://github.com/leungjch/coredump/blob/main/europe-2024/paris/venus.png?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/paris/venus.webp?raw=true)
 
 # Lauterbrunnen, Switzerland
 
-## Day 1
-
 Took the train from Paris to Interlaken, then another (30 minute) train to Lauterbrunnen, arriving in afternoon. Did the a walk along Lauterbrunnen Valley to Trimmelbach Falls. 
 
-![](https://github.com/leungjch/coredump/blob/main/europe-2024/lauterbrunnen/train.png?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/lauterbrunnen/train.webp?raw=true)
 
 The train from Interlaken to Lauterbrunnen
 
-Trimmelbach Falls
+#### Trimmelbach Falls
 
-
-![](https://github.com/leungjch/coredump/blob/main/europe-2024/lauterbrunnen/tbf-1.png?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/lauterbrunnen/tbf-1.webp?raw=true)
 
 Lauterbrunnen Valley at dusk
 
-![](https://github.com/leungjch/coredump/blob/main/europe-2024/lauterbrunnen/valley.png?raw=true)
-
-## Day 2
-
-We did the hike from Wengen - Kleine Scheidegg - Eigergletscher. 
-
-### Wengen
-
-### Eigergletscher
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/lauterbrunnen/valley.webp?raw=true)
 
 
 
-## Day 3
+Day 2: We did the hike from Wengen - Kleine Scheidegg - Eigergletscher (about 5 hours). Then we took the train back to Wengen and hiked back to Lauterbrunnen.
 
-### Mürren
+#### Wengen
 
-### Gimmelwald
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/lauterbrunnen/wengen.webp?raw=true)
 
-## Day 4
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/lauterbrunnen/wengen2.webp?raw=true)
 
-### Interlaken
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/lauterbrunnen/wengen3.webp?raw=true)
 
-### Lake Thun
+#### Eigergletscher
+
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/lauterbrunnen/kleine-scheidegg.webp?raw=true)
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/lauterbrunnen/eigergletscher.webp?raw=true)
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/lauterbrunnen/eigergletscher-2.webp?raw=true)
+
+
+
+Day 3: Took the bus to Stechelberg, then the cable car to Mürren. We then hiked to Gimmelwald and back to Stechelberg.
+
+#### Mürren
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/lauterbrunnen/murren.webp?raw=true)
+
+#### Gimmelwald
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/lauterbrunnen/gimmelwald.webp?raw=true)
+
+Day 4: Explored Interlaken and Lake Brienz.
+
+#### Lake Brienz
+
+A famous spot from Crash Landing on You
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/lauterbrunnen/lake-brienz.webp?raw=true)
+
 
 # Florence, Italy
 
 
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/florence/arno-river.webp?raw=true)
+
+#### David
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/florence/david.webp?raw=true)
+
+#### Duomo
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/florence/duomo-interior.webp?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/florence/duomo.webp?raw=true)
+
+#### Piazzale Michelangelo
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/florence/piazzale-michelangelo.webp?raw=true)
+
 
 # Rome, Italy
 
+#### Colosseum
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/rome/collosseum.webp?raw=true)
+
+#### Palatine Hill and Roman Forum
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/rome/forum-overview.webp?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/rome/forum.webp?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/rome/palatine-hill.webp?raw=true)
+
+#### Pantheon
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/rome/pantheon.webp?raw=true)
+
+
 # Venice, Italy
 
-## Day 1
+You can get around the canals by vaporetto (water bus) or fancy gondola.
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/venice/gondola.webp?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/venice/vaporetto.webp?raw=true)
 
 
-## Day 2
+#### Doge's Palace
 
-### Murano
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/venice/doge-palace.webp?raw=true)
 
-### Burano
+#### Rialto Bridge
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/venice/rialto-view-night.webp?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/venice/rialto-view.webp?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/venice/rialto.webp?raw=true)
+
+#### Murano
+
+Murano and Burano are islands near Venice that you can visit by vaporetto as a day trip.
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/venice/murano.webp?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/venice/murano-glass.webp?raw=true)
+
+
+#### Burano
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/venice/burano.webp?raw=true)
+
 
 # Salzburg, Austria
 
+A small city to stop by on the way to Vienna.
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/salzburg/farmers-market.webp?raw=true)
+
+#### Mirabellplatz
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/salzburg/mirabell-garden.webp?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/salzburg/mirabellplatz.webp?raw=true)
+
 # Vienna, Austria
 
+
+
+#### Stephansplatz
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/vienna/stephansdom.webp?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/vienna/stephansplatz1.webp?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/vienna/stephansplatz2.webp?raw=true)
+
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/vienna/graben.webp?raw=true)
+
+#### Volksoper
+
+You can get a great seat for a heavy discount if you're under 25. Viewing an opera is a must-do in Vienna.
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/vienna/volksoper.webp?raw=true)
+
+#### Belvedere Palace
+
+There was a Christmas market at the Belvedere Palace.
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/vienna/belvedere-palace.webp?raw=true)
+
 # Budapest, Hungary
+
+#### View from the Buda castle
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/budapest/budapest-night-2.webp?raw=true)
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/budapest/budapest-night.webp?raw=true)
+
+#### Parliament
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/budapest/budapest-parliament.webp?raw=true)
+
+#### Shoes on the Danube
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/budapest/shoes-on-the-danube.webp?raw=true)
 
 
 # Prague, Czech Republic
 
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/prague/prague-night.webp?raw=true)
+
+#### Astronomical Clock
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/prague/astronomical-clock.webp?raw=true)
+
+#### Prague Castle
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/prague/prague-castle-overview.webp?raw=true)
+
 # Berlin, Germany
+
+#### Berlin Hauptbahnhof
+
+A really big train station.
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/berlin/berlin-hbf.webp?raw=true)
+
+#### Brandenburg Gate
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/berlin/brandenburg_gate.webp?raw=true)
+
+#### Holocaust Memorial
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/berlin/holocaust-memorial.webp?raw=true)
 
 # Amsterdam, Netherlands
 
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/amsterdam/houses.webp?raw=true)
+
+#### Red Light District
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/amsterdam/red-light-district.webp?raw=true)
+
+#### Van Gogh Museum
+
+![](https://github.com/leungjch/coredump/blob/main/europe_2024_webp/amsterdam/van-gogh.webp?raw=true)
 
 # Notes and reflections
 
@@ -223,7 +356,4 @@ I was able to do this trip while I was finishing up my last term. I chose all as
 ## Trip planning
 
 In many cities, we only spent two nights, which is really just one and a half days when taking into account train travel (often arriving in the afternoon) and checking into the hotel. Because of this, it felt a little rushed near the end of the trip, especially the Berlin and Amsterdam (and return to Paris) segments. Two nights is really quite short for such major cities and the train travel can get exhausting. However, I don't regret it as I was able to get a sample of many different cities and learn about what I liked and didn't like.
-
-
-## Expenses
 
